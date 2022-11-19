@@ -71,34 +71,36 @@ export function App() {
         <div className="flex justify-center p-4">
           <div className="flex flex-col space-y-6 lg:space-x-6 lg:space-y-0 lg:flex-row">
             <div className="container max-w-6xl flex space-x-6 justify-center lg:justify-end">
-              <div className="hover:scale-110 flex flex-col items-center space-y-3 py-2 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
+              
+              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-2 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
                 <p className="text-lg text-blue-100">HTML5</p>
                 <img src="./images/skills/html.svg" className="h-[61px] md:h-[71px]" />
               </div>
 
-              <div className="hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
+              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
                 <p className="text-lg text-blue-100">CSS3</p>
                 <img src="./images/skills/css.svg" className="h-[61px] md:h-[71px]" />
               </div>
 
-              <div className="hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
+              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
                 <p className="text-lg text-blue-100">JavaScript</p>
                 <img src="./images/skills/javascript.svg" className="h-[61px] md:h-[71px]" />
               </div>
             </div>
 
             <div className="container flex space-x-6 justify-center lg:justify-start">
-              <div className="hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
+              
+              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
                 <p className="text-lg text-blue-100">Tailwind</p>
                 <img src="./images/skills/tailwind.svg" className="h-[61px] md:h-[71px]" />
               </div>
 
-              <div className="hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
+              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
                 <p className="text-lg text-blue-100">Kotlin</p>
                 <img src="./images/skills/kotlin.svg" className="h-[61px] md:h-[71px]" />
               </div>
 
-              <div className="hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
+              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
                 <p className="text-lg text-blue-100">CorelDraw</p>
                 <img src="./images/skills/corel.svg" className="h-[61px] md:h-[71px]" />
               </div>
@@ -120,7 +122,7 @@ export function App() {
               <div className="flex flex-col space-y-6 md:space-x-6 md:space-y-0 md:flex-row">
                 <div className="container flex flex-col space-y-6 justify-center lg:flex-row lg:space-y-0 lg:space-x-6">
 
-                  <div className="project-1 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal1(true) }}>
+                  <div className="project-1 flex flex-col cursor-pointer hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal1(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Meu Palpite</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -132,7 +134,7 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-2 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
+                  <div className="project-2 flex flex-col cursor-pointer hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -141,7 +143,7 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-3 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
+                  <div className="project-3 flex flex-col cursor-pointer hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -156,7 +158,7 @@ export function App() {
               <div className="flex flex-col space-y-6 md:space-x-6 md:space-y-0 md:flex-row">
                 <div className="container flex flex-col space-y-6 justify-center lg:flex-row lg:space-y-0 lg:space-x-6">
 
-                  <div className="project-4 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
+                  <div className="project-4 flex flex-col cursor-pointer hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -165,7 +167,7 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-5 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
+                  <div className="project-5 flex flex-col cursor-pointer hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -174,7 +176,7 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-6 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
+                  <div className="project-6 flex flex-col cursor-pointer hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
