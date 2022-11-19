@@ -1,10 +1,10 @@
 import { useState } from "react";
-
-import Modal1 from "../components/modal1";
+import Modal0 from "./components/modal0";
+import Modal1 from "./components/modal1";
 
 export function App() {
 
-  
+  const [showModal0, setShowModal0] = useState(false)
   const [showModal1, setShowModal1] = useState(false)
   const handleOnClose = () => { setShowModal0(false); setShowModal1(false) }
 
@@ -132,7 +132,7 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-2 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal1(true) }}>
+                  <div className="project-2 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -141,7 +141,7 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-3 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal1(true) }}>
+                  <div className="project-3 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -156,7 +156,7 @@ export function App() {
               <div className="flex flex-col space-y-6 md:space-x-6 md:space-y-0 md:flex-row">
                 <div className="container flex flex-col space-y-6 justify-center lg:flex-row lg:space-y-0 lg:space-x-6">
 
-                  <div className="project-4 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal1(true) }}>
+                  <div className="project-4 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -165,7 +165,7 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-5 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal1(true) }}>
+                  <div className="project-5 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -174,7 +174,7 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-6 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal1(true) }}>
+                  <div className="project-6 flex flex-col hover:scale-105 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl px-4 py-2 justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-80 items-center py-2 space-y-2 rounded-xl">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -247,7 +247,7 @@ export function App() {
         </div>
       </footer>
 
-      
+      <Modal0 onClose={handleOnClose} visible={showModal0} />
       <Modal1 onClose={handleOnClose} visible={showModal1} />
 
     </>
