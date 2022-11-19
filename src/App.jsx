@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Modal0 from "./components/modal0";
-import Modal1 from "./components/modal1";
+import Modal0 from "./components/Modal0";
+import Modal1 from "./components/Modal1";
 
 export function App() {
 
