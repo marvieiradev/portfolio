@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Modal0 from "./components/Modal0";
-import Modal1 from "./components/Modal1";
+import Modal0 from "./components/modal0";
+import Modal1 from "./components/modal1";
 
 export function App() {
 
@@ -23,7 +23,7 @@ export function App() {
 
       </div>
 
-      <section id="sobre" className="h-max bg-dark text-white flex flex-col py-8 items-center space-y-4">
+      <section id="sobre" className="bg-dark text-white flex flex-col py-8 items-center space-y-4">
         <div className="flex md:space-y-[100px]">
           <div className="container max-w-6xl flex flex-col items-center lg:flex-row space-y-4 lg:space-y-0 lg:space-x-[150px] md:px-20">
             <div className="flex flex-col space-y-4 md:flex-1 md:space-y-6">
@@ -36,7 +36,7 @@ export function App() {
                 <a href="#" className="font-bold animblur text-center text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 text-sm px-6 py-2 rounded-xl md:text-md">
                   Download CV
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=5585986099213" className="font-bold animblur text-center text-blue-100 border border-blue-100 text-sm px-6 py-2 rounded-xl md:text-md">
+                <a href="https://api.whatsapp.com/send?phone=5585986099213" target="_blank" className="font-bold animblur text-center text-blue-100 border border-blue-100 text-sm px-6 py-2 rounded-xl md:text-md">
                   Entrar em Contato
                 </a>
               </div>
@@ -48,12 +48,12 @@ export function App() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center space-y-4 animblur lg:p-6">
+        <div className="flex flex-col items-center space-y-4 animblur lg:py-10">
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Sobre mim</h1>
           <p className="flex flex-col justify-center items-center text-md space-y-2 lg:text-xl">
-            <p>Formado em Análise e Desenvolvimento de Sistemas</p>
-            <p>Com conhecimentos em Java, Kotlin, HTML, CSS, JavaScript,</p>
-            <p>Banco de dados e entusiasta em desenvolvimento de jogos</p>
+            <p>Formado em Análise e Desenvolvimento de Sistemas.</p>
+            <p>Conhecimentos em Java, Kotlin, HTML, CSS, JavaScript e banco de dados.</p>
+            <p>E entusiasta em desenvolvimento de jogos.</p>
           </p>
           <div className="flex space-x-2">
             <div className="alien"></div>
@@ -209,7 +209,7 @@ export function App() {
                       <h3>mvieiradev@gmail.com</h3>
                     </div>
                   </a>
-                  <a href="https://api.whatsapp.com/send?phone=5585986099213">
+                  <a href="https://api.whatsapp.com/send?phone=5585986099213" target="_blank">
                     <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
                       <img src="./images/contacts/phone.svg" className="w-20" />
                       <h3>Telefone</h3>
@@ -219,7 +219,7 @@ export function App() {
                 </div>
 
                 <div className="container flex space-x-6 justify-center md:justify-start">
-                  <a href="https://www.linkedin.com/in/marcos-vieira-b5407192/">
+                  <a href="https://www.linkedin.com/in/marcos-vieira-b5407192/" target="_blank">
                     <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
                       <img src="./images/contacts/linkedin.svg" className="w-20" />
                       <h3>Linkedin</h3>
@@ -227,7 +227,7 @@ export function App() {
                     </div>
                   </a>
 
-                  <a href="https://github.com/marvieiradev">
+                  <a href="https://github.com/marvieiradev" target="_blank">
                     <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
                       <img src="./images/contacts/github.svg" className="w-20" />
                       <h3>Github</h3>
