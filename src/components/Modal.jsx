@@ -1,5 +1,4 @@
 import React from "react"
-import { App } from "./app";
 
 export default function Modal({ visible, onClose }) {
     const handleOnClose = (e) => {
