@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Modal1({ visible, onClose }) {
+export default function Modal2({ visible, onClose }) {
     const handleOnClose = (e) => {
         if (e.target.id === 'container') onClose();
     }
@@ -15,20 +15,18 @@ export default function Modal1({ visible, onClose }) {
 
                 <div className="flex flex-col items-center px-2 lg:flex-row lg:space-x-6 lg:px-6">
                     <div className="flex justify-center ">
-                        <iframe className="w-[400px] h-[250px] lg:w-[640px] lg:h-[360px]" src="https://www.youtube.com/embed/jtkRr3sUO0k" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="w-[400px] h-[250px] lg:w-[640px] lg:h-[360px]" src="https://www.youtube.com/embed/x_jn4Ne2PaE" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
 
                     <div className="flex flex-col justify-center p-2 space-y-4 lg:justify-start">
-                        <h1 id="md-title" className="titles text-2xl text-center font-bold text-blue-300 lg:text-2xl">Meu Palpite</h1>
-                        <p className="text-sm lg:text-base">Meu Palpite é um aplicativo onde o usuário pode registrar seus palpites nos jogos da Copa do Mundo 2022, também é possivel compartilhar seus palpites.</p>
+                        <h1 id="md-title" className="titles text-2xl text-center font-bold text-blue-300 lg:text-2xl">God of War</h1>
+                        <p className="text-sm lg:text-base">Interface do site do jogo "God of War Ragnarök" a página conta com animações ao usar o scroll do mouse e é totalmente responsiva, sendo exibida perfeitamente no desktop e mobile.</p>
                         <p className="text-sm lg:text-base">
-                            <p>Projeto desenvolvido no evento Full Stack Challenge da Codar.me.</p>
+                            <p>Projeto desenvolvido no evento Semana Front-end da Codeboost.</p>
                             <br></br>
                             <p>Tecnologias Utilizadas:</p>
                             <p>• Javascript</p>
-                            <p>• NodeJS com Koa</p>
-                            <p>• CSS e HTML com Tailwind</p>
-                            <p>• Banco de dados com Prisma e PlanetScale</p>
+                            <p>• CSS e HTML com SASS</p>
                         </p>
                         <p className="text-lg font-bold text-blue-500">Novembro de 2022</p>
                     </div>
@@ -37,10 +35,10 @@ export default function Modal1({ visible, onClose }) {
 
                 <div className="flex justify-center p-4">
                     <div className="flex flex-row space-x-4 justify-center lg:justify-start">
-                        <a href="https://meupalpite-web.vercel.app/" target="_blank" className="text-center font-bold text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 text-sm px-6 py-2 rounded-xl md:text-md">
+                        <a href="https://god-of-war-red.vercel.app/" target="_blank" className="text-center font-bold text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 text-sm px-6 py-2 rounded-xl md:text-md">
                             Acessar Projeto
                         </a>
-                        <a href="https://github.com/marvieiradev/meupalpite-web" target="_blank" className="text-center font-bold text-blue-100 border border-blue-100 text-sm px-6 py-2 rounded-xl md:text-md">
+                        <a href="https://github.com/marvieiradev/god-of-war" target="_blank" className="text-center font-bold text-blue-100 border border-blue-100 text-sm px-6 py-2 rounded-xl md:text-md">
                             Acessar Repositório
                         </a>
                     </div>
