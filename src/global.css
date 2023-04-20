@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Dosis', sans-serif;
+  background-color: #00021A;
+}
+
+.titles {
+  font-family: 'League Spartan', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 2px #3B82F6; 
+}
+
+.no-title {
+  font-family: 'League Spartan', sans-serif;
+  text-transform: uppercase;
+}
+
+.main{
+  font-family: 'League Spartan', sans-serif;
+  text-shadow: 1px 2px 2px #3B82F6;
+}
+
+* {
+  scrollbar-width: bold;
+  scrollbar-color: #3B82F6 #00021A;
+  ;
+}
+
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #00021A;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #3B82F6;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.project-1 {
+  background-image: url("../../images/projects/project-1.jpg");
+  background-size: 400px;
+}
+
+.project-2 {
+  background-image: url("../../images/projects/project-2.jpg");
+  background-size: 400px;
+}
+
+.project-3 {
+  background-image: url("../../images/projects/project-0.jpg");
+  background-size: 400px;
+}
+
+.project-4 {
+  background-image: url("../../images/projects/project-0.jpg");
+  background-size: 400px;
+}
+
+.project-5 {
+  background-image: url("../../images/projects/project-0.jpg");
+  background-size: 400px;
+}
+
+.project-6 {
+  background-image: url("../../images/projects/project-0.jpg");
+  background-size: 400px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.alien {
+  height: 33px;
+  width: 50px;
+  background-size: 20px;
+  background: url("../../images/aliens/alien-1.svg")
+    0px 0px;
+  animation: play 0.8s steps(1) infinite;
+}
+@keyframes play {
+  50% {
+    background: url("../../images/aliens/alien-2.svg")
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.4s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 1.6s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.animblur {
+  opacity: 0;
+  filter: blur(4px);
+  animation: fade-in 0.5s 2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
