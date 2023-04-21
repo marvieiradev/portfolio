@@ -35,7 +35,7 @@ export function App() {
                 <span className="text-lg text-blue-300 lg:text-2xl lg:text-left">Desenvolvedor Front-End</span>
               </div>
               <div className="flex flex-row space-x-4 justify-center lg:justify-start">
-                <a href="#" className="font-bold animblur text-center text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 text-sm px-6 py-2 rounded-xl md:text-md">
+                <a href="docs/cv-marcos-vieira.pdf" download className="font-bold animblur text-center text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 text-sm px-6 py-2 rounded-xl md:text-md">
                   Download CV
                 </a>
                 <a href="https://api.whatsapp.com/send?phone=5585986099213" target="_blank" className="font-bold animblur text-center text-blue-100 border border-blue-100 text-sm px-6 py-2 rounded-xl md:text-md">
@@ -256,7 +256,7 @@ export function App() {
 
       <footer>
         <div className="py-4">
-          <h4 className="text-center text-md text-white">&copy; 2022 - Marcos Vieira</h4>
+          <h4 className="text-center text-md text-white">&copy; 2023 - Marcos Vieira</h4>
         </div>
       </footer>
 
