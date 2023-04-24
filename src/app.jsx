@@ -113,6 +113,11 @@ export function App() {
                 <img src="./images/skills/corel.svg" className="h-[61px] md:h-[71px]" />
               </div>
 
+              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
+                <p className="text-lg text-blue-100">Git</p>
+                <img src="./images/skills/git.svg" className="h-[61px] md:h-[71px]" />
+              </div>
+
             </div>
           </div>
         </div>
