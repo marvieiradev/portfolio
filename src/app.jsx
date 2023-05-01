@@ -143,7 +143,7 @@ export function App() {
                 <div className="container flex flex-col space-y-6 justify-center lg:flex-row lg:space-y-0 lg:space-x-6">
 
                   <div className="project-1 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal1(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+                    <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
                       <p className="text-xl shadow-3xl">Meu Palpite</p>
                       <div className="flex flex-row item-center space-x-2">
                         <img className="w-[20px]" src="./images/skills/html.svg" />
@@ -155,7 +155,7 @@ export function App() {
                   </div>
 
                   <div className="project-2 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal2(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+                    <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
                       <p className="text-xl shadow-3xl">God of War</p>
                       <div className="flex flex-row item-center space-x-2">
                         <img className="w-[20px]" src="./images/skills/html.svg" />
@@ -167,8 +167,8 @@ export function App() {
                   </div>
 
                   <div className="project-3 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal3(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">Android</p>
+                    <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+                      <p className="text-xl shadow-3xl">Quiz Hunter</p>
                       <div className="flex flex-row item-center space-x-2">
                         <img className="w-[20px]" src="./images/skills/kotlin.svg" />
                       </div>
