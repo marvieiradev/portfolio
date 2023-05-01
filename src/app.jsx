@@ -2,13 +2,20 @@ import { useState } from "react";
 import Modal0 from "./components/Modal0";
 import Modal1 from "./components/Modal1";
 import Modal2 from "./components/Modal2";
+import Modal3 from "./components/Modal3";
 
 export function App() {
 
   const [showModal0, setShowModal0] = useState(false)
   const [showModal1, setShowModal1] = useState(false)
   const [showModal2, setShowModal2] = useState(false)
-  const handleOnClose = () => { setShowModal0(false); setShowModal1(false); setShowModal2(false) }
+  const [showModal3, setShowModal3] = useState(false)
+  const handleOnClose = () => {
+    setShowModal0(false);
+    setShowModal1(false);
+    setShowModal2(false);
+    setShowModal3(false)
+  }
 
 
   return (
@@ -159,11 +166,11 @@ export function App() {
                     </div>
                   </div>
 
-                  <div className="project-3 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
+                  <div className="project-3 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal3(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
+                      <p className="text-xl shadow-3xl">Android</p>
                       <div className="flex flex-row item-center space-x-2">
-                        <img className="w-[20px]" src="./images/skills/gear.svg" />
+                        <img className="w-[20px]" src="./images/skills/kotlin.svg" />
                       </div>
                     </div>
                   </div>
@@ -174,7 +181,7 @@ export function App() {
               <div className="flex flex-col space-y-6 md:space-x-6 md:space-y-0 md:flex-row">
                 <div className="container flex flex-col space-y-6 justify-center lg:flex-row lg:space-y-0 lg:space-x-6">
 
-                <div className="project-4 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
+                  <div className="project-4 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
                       <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
                       <div className="flex flex-row item-center space-x-2">
@@ -268,6 +275,7 @@ export function App() {
       <Modal0 onClose={handleOnClose} visible={showModal0} />
       <Modal1 onClose={handleOnClose} visible={showModal1} />
       <Modal2 onClose={handleOnClose} visible={showModal2} />
+      <Modal3 onClose={handleOnClose} visible={showModal3} />
 
     </>
   )
