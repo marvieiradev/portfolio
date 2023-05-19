@@ -183,9 +183,11 @@ export function App() {
 
                   <div className="project-4 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
                     <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
+                      <p className="text-xl shadow-3xl">Pokedex</p>
                       <div className="flex flex-row item-center space-x-2">
-                        <img className="w-[20px]" src="./images/skills/gear.svg" />
+                        <img className="w-[20px]" src="./images/skills/html.svg" />
+                        <img className="w-[20px]" src="./images/skills/css.svg" />
+                        <img className="w-[20px]" src="./images/skills/javascript.svg" />
                       </div>
                     </div>
                   </div>
