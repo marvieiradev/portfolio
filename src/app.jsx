@@ -20,7 +20,6 @@ export function App() {
     setShowModal4(false)
   }
 
-
   return (
     <>
       <header className="bg-darker border-b-2 border-blue-300 sticky top-0 z-50 w-full px-2 py-2">
@@ -37,7 +36,7 @@ export function App() {
 
       <section id="sobre" className="bg-dark text-white flex flex-col py-8 items-center space-y-4">
         <div className="flex md:space-y-[100px]">
-          <div className="container max-w-6xl flex flex-col items-center lg:flex-row space-y-4 lg:space-y-0 lg:space-x-[150px] md:px-20">
+          <div className="container max-w-5xl flex flex-col items-center lg:flex-row space-y-4 lg:space-y-0 lg:space-x-[150px] md:px-20">
             <div className="flex flex-col space-y-4 md:flex-1 md:space-y-6">
               <div className="main flex flex-col items-center lg:items-start">
                 <span className="text-3xl lg:text-5xl lg:text-left">Olá, eu sou o</span>
@@ -62,7 +61,7 @@ export function App() {
 
         <div className="flex flex-col items-center space-y-4 animblur lg:py-10">
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Sobre mim</h1>
-          <p className="flex flex-col justify-center items-center text-md space-y-2 lg:text-xl">
+          <p className="flex flex-col justify-center text-center items-center text-md space-y-2 px-3 lg:text-xl">
             <p>Formado em Análise e Desenvolvimento de Sistemas.</p>
             <p>Conhecimentos em Java, Kotlin, HTML, CSS, JavaScript e banco de dados.</p>
             <p>E entusiasta em desenvolvimento de jogos.</p>
@@ -80,145 +79,123 @@ export function App() {
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Habilidades</h1>
         </div>
 
-        <div className="flex justify-center p-4">
-          <div className="flex flex-col space-y-6 lg:space-x-6 lg:space-y-0 lg:flex-row">
-            <div className="container max-w-6xl flex space-x-6 justify-center lg:justify-end">
+        <div className="container flex flex-wrap justify-center my-10 px-3">
 
-              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-2 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
-                <p className="text-lg text-blue-100">HTML5</p>
-                <img src="./images/skills/html.svg" className="h-[61px] md:h-[71px]" />
-              </div>
-
-              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
-                <p className="text-lg text-blue-100">CSS3</p>
-                <img src="./images/skills/css.svg" className="h-[61px] md:h-[71px]" />
-              </div>
-
-              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
-                <p className="text-lg text-blue-100">JavaScript</p>
-                <img src="./images/skills/javascript.svg" className="h-[61px] md:h-[71px]" />
-              </div>
-
-              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
-                <p className="text-lg text-blue-100">SASS</p>
-                <img src="./images/skills/sass.svg" className="h-[61px] md:h-[71px]" />
-              </div>
-
-            </div>
-
-            <div className="container flex space-x-6 justify-center lg:justify-start">
-
-              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
-                <p className="text-lg text-blue-100">Tailwind</p>
-                <img src="./images/skills/tailwind.svg" className="h-[61px] md:h-[71px]" />
-              </div>
-
-              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
-                <p className="text-lg text-blue-100">Kotlin</p>
-                <img src="./images/skills/kotlin.svg" className="h-[61px] md:h-[71px]" />
-              </div>
-
-              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
-                <p className="text-lg text-blue-100">CorelDraw</p>
-                <img src="./images/skills/corel.svg" className="h-[61px] md:h-[71px]" />
-              </div>
-
-              <div className="cursor-pointer hover:scale-110 flex flex-col items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[100px] md:w-[120px]">
-                <p className="text-lg text-blue-100">Git</p>
-                <img src="./images/skills/git.svg" className="h-[61px] md:h-[71px]" />
-              </div>
-
-            </div>
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
+            <p className="text-md text-blue-100 md:text-lg">HTML5</p>
+            <img src="./images/skills/html.svg" className="h-[61px] md:h-[71px]" />
           </div>
+
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
+            <p className="text-md text-blue-100 md:text-lg">CSS3</p>
+            <img src="./images/skills/css.svg" className="h-[61px] md:h-[71px]" />
+          </div>
+
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
+            <p className="text-md text-blue-100 md:text-lg">JavaScript</p>
+            <img src="./images/skills/javascript.svg" className="h-[61px] md:h-[71px]" />
+          </div>
+
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
+            <p className="text-md text-blue-100 md:text-lg">SASS</p>
+            <img src="./images/skills/sass.svg" className="h-[61px] md:h-[71px]" />
+          </div>
+
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
+            <p className="text-md text-blue-100 md:text-lg">Tailwind</p>
+            <img src="./images/skills/tailwind.svg" className="h-[61px] md:h-[71px]" />
+          </div>
+
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
+            <p className="text-md text-blue-100 md:text-lg">Kotlin</p>
+            <img src="./images/skills/kotlin.svg" className="h-[61px] md:h-[71px]" />
+          </div>
+
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
+            <p className="text-md text-blue-100 md:text-lg">CorelDraw</p>
+            <img src="./images/skills/corel.svg" className="h-[61px] md:h-[71px]" />
+          </div>
+
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
+            <p className="text-md text-blue-100 md:text-lg">Git</p>
+            <img src="./images/skills/git.svg" className="h-[61px] md:h-[71px]" />
+          </div>
+
         </div>
+
       </section>
 
-      <section id="projetos" className="reveal text-white flex flex-col py-10 space-y-4 md:space-y-8">
+      <section id="projetos" className="reveal text-white flex flex-col py-10 space-y-4 md:space-y-8 items-center">
         <div id="titulo-contato">
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Projetos</h1>
         </div>
 
-        <div className="flex justify-center">
-          <div id="cards" className="container max-w-6xl flex flex-row p-4 justify-center">
-            <div className="flex flex-col justify-center space-y-6">
+        <div className="container flex flex-wrap justify-center my-10 px-3">
 
-              <div className="flex flex-col space-y-6 md:space-x-6 md:space-y-0 md:flex-row">
-                <div className="container flex flex-col space-y-6 justify-center lg:flex-row lg:space-y-0 lg:space-x-6">
-
-                  <div className="project-1 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal1(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">Meu Palpite</p>
-                      <div className="flex flex-row item-center space-x-2">
-                        <img className="w-[20px]" src="./images/skills/html.svg" />
-                        <img className="w-[20px]" src="./images/skills/css.svg" />
-                        <img className="w-[20px]" src="./images/skills/javascript.svg" />
-                        <img className="w-[20px]" src="./images/skills/tailwind.svg" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="project-2 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal2(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">God of War</p>
-                      <div className="flex flex-row item-center space-x-2">
-                        <img className="w-[20px]" src="./images/skills/html.svg" />
-                        <img className="w-[20px]" src="./images/skills/css.svg" />
-                        <img className="w-[20px]" src="./images/skills/javascript.svg" />
-                        <img className="w-[20px]" src="./images/skills/sass.svg" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="project-3 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal3(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">Quiz Hunter</p>
-                      <div className="flex flex-row item-center space-x-2">
-                        <img className="w-[20px]" src="./images/skills/kotlin.svg" />
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
+          <div className="project-1 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal1(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+              <p className="text-xl shadow-3xl">Meu Palpite</p>
+              <div className="flex flex-row item-center space-x-2">
+                <img className="w-[20px]" src="./images/skills/html.svg" />
+                <img className="w-[20px]" src="./images/skills/css.svg" />
+                <img className="w-[20px]" src="./images/skills/javascript.svg" />
+                <img className="w-[20px]" src="./images/skills/tailwind.svg" />
               </div>
-
-              <div className="flex flex-col space-y-6 md:space-x-6 md:space-y-0 md:flex-row">
-                <div className="container flex flex-col space-y-6 justify-center lg:flex-row lg:space-y-0 lg:space-x-6">
-
-                  <div className="project-4 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal4(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">Pokedex</p>
-                      <div className="flex flex-row item-center space-x-2">
-                        <img className="w-[20px]" src="./images/skills/html.svg" />
-                        <img className="w-[20px]" src="./images/skills/css.svg" />
-                        <img className="w-[20px]" src="./images/skills/javascript.svg" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="project-5 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
-                      <div className="flex flex-row item-center space-x-2">
-                        <img className="w-[20px]" src="./images/skills/gear.svg" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="project-6 flex flex-col cursor-pointer hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
-                    <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
-                      <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
-                      <div className="flex flex-row item-center space-x-2">
-                        <img className="w-[20px]" src="./images/skills/gear.svg" />
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
             </div>
           </div>
+
+          <div className="project-2 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal2(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+              <p className="text-xl shadow-3xl">God of War</p>
+              <div className="flex flex-row item-center space-x-2">
+                <img className="w-[20px]" src="./images/skills/html.svg" />
+                <img className="w-[20px]" src="./images/skills/css.svg" />
+                <img className="w-[20px]" src="./images/skills/javascript.svg" />
+                <img className="w-[20px]" src="./images/skills/sass.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div className="project-3 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal3(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+              <p className="text-xl shadow-3xl">Quiz Hunter</p>
+              <div className="flex flex-row item-center space-x-2">
+                <img className="w-[20px]" src="./images/skills/kotlin.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div className="project-4 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal4(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+              <p className="text-xl shadow-3xl">Pokedex</p>
+              <div className="flex flex-row item-center space-x-2">
+                <img className="w-[20px]" src="./images/skills/html.svg" />
+                <img className="w-[20px]" src="./images/skills/css.svg" />
+                <img className="w-[20px]" src="./images/skills/javascript.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div className="project-5 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+              <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
+              <div className="flex flex-row item-center space-x-2">
+                <img className="w-[20px]" src="./images/skills/gear.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div className="project-6 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+              <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
+              <div className="flex flex-row item-center space-x-2">
+                <img className="w-[20px]" src="./images/skills/gear.svg" />
+              </div>
+            </div>
+          </div>
+
         </div>
+
       </section>
 
 

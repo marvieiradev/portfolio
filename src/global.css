@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Dosis', sans-serif;
   background-color: #00021A;
@@ -10,7 +15,7 @@ body {
 .titles {
   font-family: 'League Spartan', sans-serif;
   text-transform: uppercase;
-  text-shadow: 1px 2px 2px #3B82F6; 
+  text-shadow: 1px 2px 2px #3B82F6;
 }
 
 .no-title {
@@ -18,7 +23,7 @@ body {
   text-transform: uppercase;
 }
 
-.main{
+.main {
   font-family: 'League Spartan', sans-serif;
   text-shadow: 1px 2px 2px #3B82F6;
 }
@@ -52,32 +57,32 @@ body {
 
 .project-1 {
   background-image: url("../../images/projects/project-1.jpg");
-  background-size: 400px;
+  background-size: contain;
 }
 
 .project-2 {
   background-image: url("../../images/projects/project-2.jpg");
-  background-size: 400px;
+  background-size: contain;
 }
 
 .project-3 {
   background-image: url("../../images/projects/project-3.jpg");
-  background-size: 400px;
+  background-size: contain;
 }
 
 .project-4 {
   background-image: url("../../images/projects/project-4.jpg");
-  background-size: 400px;
+  background-size: contain;
 }
 
 .project-5 {
   background-image: url("../../images/projects/project-0.jpg");
-  background-size: 400px;
+  background-size: contain;
 }
 
 .project-6 {
   background-image: url("../../images/projects/project-0.jpg");
-  background-size: 400px;
+  background-size: contain;
 }
 
 .reveal {
@@ -96,10 +101,10 @@ body {
   height: 33px;
   width: 50px;
   background-size: 20px;
-  background: url("../../images/aliens/alien-1.svg")
-    0px 0px;
+  background: url("../../images/aliens/alien-1.svg") 0px 0px;
   animation: play 0.8s steps(1) infinite;
 }
+
 @keyframes play {
   50% {
     background: url("../../images/aliens/alien-2.svg")
