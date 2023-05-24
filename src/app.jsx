@@ -213,7 +213,7 @@ export function App() {
                     <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
                       <img src="./images/contacts/email.svg" className="w-20" />
                       <h3>Email</h3>
-                      <h3>mvieiradev@gmail.com</h3>
+                      <h3>marvieiradev@gmail.com</h3>
                     </div>
                   </a>
                   <a href="https://api.whatsapp.com/send?phone=5585986099213" target="_blank">
