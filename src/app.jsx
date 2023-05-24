@@ -74,7 +74,7 @@ export function App() {
         </div>
       </section>
 
-      <section id="habilidades" className="reveal text-white flex flex-col py-10 space-y-4 md:space-y-8">
+      <section id="habilidades" className="reveal text-white flex flex-col py-10 space-y-4 md:space-y-8 items-center">
         <div id="titulo-contato">
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Habilidades</h1>
         </div>
