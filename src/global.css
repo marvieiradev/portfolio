@@ -55,34 +55,36 @@ body {
   scrollbar-width: none;
 }
 
+.project-1, .project-2, .project-3, .project-4, .project-5, .project-6{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}  
+
 .project-1 {
   background-image: url("../../images/projects/project-1.jpg");
-  background-size: contain;
+
 }
 
 .project-2 {
   background-image: url("../../images/projects/project-2.jpg");
-  background-size: contain;
 }
 
 .project-3 {
   background-image: url("../../images/projects/project-3.jpg");
-  background-size: contain;
 }
 
 .project-4 {
   background-image: url("../../images/projects/project-4.jpg");
-  background-size: contain;
 }
 
 .project-5 {
   background-image: url("../../images/projects/project-0.jpg");
-  background-size: contain;
 }
 
 .project-6 {
   background-image: url("../../images/projects/project-0.jpg");
-  background-size: contain;
 }
 
 .reveal {

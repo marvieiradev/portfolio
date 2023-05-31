@@ -30,15 +30,13 @@ export function App() {
         </div>
       </header>
 
-      <div className="p-0 lg:p-8">
-
-      </div>
-
       <section id="sobre" className="bg-dark text-white flex flex-col py-8 items-center space-y-4">
         <div className="flex md:space-y-[100px]">
-          <div className="container max-w-5xl flex flex-col items-center lg:flex-row space-y-4 lg:space-y-0 lg:space-x-[150px] md:px-20">
+
+          <div className="container flex flex-col items-center md:flex-row space-y-4 lg:space-y-0 md:space-x-32 lg:space-x-40">
+            
             <div className="flex flex-col space-y-4 md:flex-1 md:space-y-6">
-              <div className="main flex flex-col items-center lg:items-start">
+              <div className="main flex flex-col items-center md:items-start">
                 <span className="text-3xl lg:text-5xl lg:text-left">Olá, eu sou o</span>
                 <span className="text-3xl text-blue-500 lg:text-5xl lg:text-left">Marcos Vieira</span>
                 <span className="text-lg text-blue-300 lg:text-2xl lg:text-left">Desenvolvedor Front-End</span>
@@ -54,9 +52,11 @@ export function App() {
             </div>
 
             <div className="justify-center animblur">
-              <img src="./images/logo.png" className="w-48 md:w-[200px] lg:w-[250px] " />
+              <img src="./images/logo.png" className="h-48 md:h-[250px] lg:h-[300px] " />
             </div>
           </div>
+
+
         </div>
 
         <div className="flex flex-col items-center space-y-4 animblur lg:py-10">
@@ -81,44 +81,44 @@ export function App() {
 
         <div className="container flex flex-wrap justify-center my-10 px-3">
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
-            <p className="text-md text-blue-100 md:text-lg">HTML5</p>
-            <img src="./images/skills/html.svg" className="h-[61px] md:h-[71px]" />
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+            <p className="text-md text-blue-100 lg:text-lg">HTML5</p>
+            <img src="./images/skills/html.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
-            <p className="text-md text-blue-100 md:text-lg">CSS3</p>
-            <img src="./images/skills/css.svg" className="h-[61px] md:h-[71px]" />
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+            <p className="text-md text-blue-100 lg:text-lg">CSS3</p>
+            <img src="./images/skills/css.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
-            <p className="text-md text-blue-100 md:text-lg">JavaScript</p>
-            <img src="./images/skills/javascript.svg" className="h-[61px] md:h-[71px]" />
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+            <p className="text-md text-blue-100 lg:text-lg">JavaScript</p>
+            <img src="./images/skills/javascript.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
-            <p className="text-md text-blue-100 md:text-lg">SASS</p>
-            <img src="./images/skills/sass.svg" className="h-[61px] md:h-[71px]" />
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+            <p className="text-md text-blue-100 lg:text-lg">SASS</p>
+            <img src="./images/skills/sass.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
-            <p className="text-md text-blue-100 md:text-lg">Tailwind</p>
-            <img src="./images/skills/tailwind.svg" className="h-[61px] md:h-[71px]" />
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+            <p className="text-md text-blue-100 lg:text-lg">Tailwind</p>
+            <img src="./images/skills/tailwind.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
-            <p className="text-md text-blue-100 md:text-lg">Kotlin</p>
-            <img src="./images/skills/kotlin.svg" className="h-[61px] md:h-[71px]" />
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+            <p className="text-md text-blue-100 lg:text-lg">Kotlin</p>
+            <img src="./images/skills/kotlin.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
-            <p className="text-md text-blue-100 md:text-lg">CorelDraw</p>
-            <img src="./images/skills/corel.svg" className="h-[61px] md:h-[71px]" />
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+            <p className="text-md text-blue-100 lg:text-lg">CorelDraw</p>
+            <img src="./images/skills/corel.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] md:w-[120px]">
-            <p className="text-md text-blue-100 md:text-lg">Git</p>
-            <img src="./images/skills/git.svg" className="h-[61px] md:h-[71px]" />
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+            <p className="text-md text-blue-100 lg:text-lg">Git</p>
+            <img src="./images/skills/git.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
         </div>
@@ -132,8 +132,8 @@ export function App() {
 
         <div className="container flex flex-wrap justify-center my-10 px-3">
 
-          <div className="project-1 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal1(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+          <div className="project-1 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal1(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
               <p className="text-xl shadow-3xl">Meu Palpite</p>
               <div className="flex flex-row item-center space-x-2">
                 <img className="w-[20px]" src="./images/skills/html.svg" />
@@ -144,8 +144,8 @@ export function App() {
             </div>
           </div>
 
-          <div className="project-2 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal2(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+          <div className="project-2 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal2(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
               <p className="text-xl shadow-3xl">God of War</p>
               <div className="flex flex-row item-center space-x-2">
                 <img className="w-[20px]" src="./images/skills/html.svg" />
@@ -156,8 +156,8 @@ export function App() {
             </div>
           </div>
 
-          <div className="project-3 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal3(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+          <div className="project-3 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal3(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
               <p className="text-xl shadow-3xl">Quiz Hunter</p>
               <div className="flex flex-row item-center space-x-2">
                 <img className="w-[20px]" src="./images/skills/kotlin.svg" />
@@ -165,8 +165,8 @@ export function App() {
             </div>
           </div>
 
-          <div className="project-4 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal4(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+          <div className="project-4 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal4(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
               <p className="text-xl shadow-3xl">Pokedex</p>
               <div className="flex flex-row item-center space-x-2">
                 <img className="w-[20px]" src="./images/skills/html.svg" />
@@ -176,8 +176,8 @@ export function App() {
             </div>
           </div>
 
-          <div className="project-5 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+          <div className="project-5 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
               <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
               <div className="flex flex-row item-center space-x-2">
                 <img className="w-[20px]" src="./images/skills/gear.svg" />
@@ -185,8 +185,8 @@ export function App() {
             </div>
           </div>
 
-          <div className="project-6 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[350px] h-[200px] xl:w-96 xl:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[350px] h-[200px] xl:w-96 xl:h-56 hover:opacity-0">
+          <div className="project-6 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
+            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
               <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
               <div className="flex flex-row item-center space-x-2">
                 <img className="w-[20px]" src="./images/skills/gear.svg" />
@@ -211,14 +211,14 @@ export function App() {
                 <div className="container flex space-x-6 justify-center md:justify-end">
                   <a href="mailto:marvieiradev@gmail.com" target="_blank">
                     <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
-                      <img src="./images/contacts/email.svg" className="w-20" />
-                      <h3>Email</h3>
+                      <img src="./images/contacts/email.svg" className="w-20 pb-2" />
+                      <h3 cla>Email</h3>
                       <h3>marvieiradev@gmail.com</h3>
                     </div>
                   </a>
                   <a href="https://api.whatsapp.com/send?phone=5585986099213" target="_blank">
                     <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
-                      <img src="./images/contacts/phone.svg" className="w-20" />
+                      <img src="./images/contacts/phone.svg" className="w-20 pb-2" />
                       <h3>Telefone</h3>
                       <h3>(85) 98609.9213</h3>
                     </div>
@@ -228,7 +228,7 @@ export function App() {
                 <div className="container flex space-x-6 justify-center md:justify-start">
                   <a href="https://www.linkedin.com/in/marcos-vieira-b5407192/" target="_blank">
                     <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
-                      <img src="./images/contacts/linkedin.svg" className="w-20" />
+                      <img src="./images/contacts/linkedin.svg" className="w-20 pb-2" />
                       <h3>Linkedin</h3>
                       <h3>Marcos Vieira</h3>
                     </div>
@@ -236,7 +236,7 @@ export function App() {
 
                   <a href="https://github.com/marvieiradev" target="_blank">
                     <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
-                      <img src="./images/contacts/github.svg" className="w-20" />
+                      <img src="./images/contacts/github.svg" className="w-20 pb-2" />
                       <h3>Github</h3>
                       <h3>marvieiradev</h3>
                     </div>
