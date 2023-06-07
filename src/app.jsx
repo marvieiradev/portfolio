@@ -52,7 +52,7 @@ export function App() {
             </div>
 
             <div className="justify-center animblur">
-              <img src="./images/logo.png" className="h-48 md:h-[250px] lg:h-[300px] " />
+              <img src="./images/logo.png" className="h-48 md:h-[250px] lg:h-[300px] opacity-80 hover:opacity-100 hover:scale-110" />
             </div>
           </div>
 
@@ -81,42 +81,42 @@ export function App() {
 
         <div className="container flex flex-wrap justify-center my-10 px-3">
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
             <p className="text-md text-blue-100 lg:text-lg">HTML5</p>
             <img src="./images/skills/html.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
             <p className="text-md text-blue-100 lg:text-lg">CSS3</p>
             <img src="./images/skills/css.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
             <p className="text-md text-blue-100 lg:text-lg">JavaScript</p>
             <img src="./images/skills/javascript.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
             <p className="text-md text-blue-100 lg:text-lg">SASS</p>
             <img src="./images/skills/sass.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
             <p className="text-md text-blue-100 lg:text-lg">Tailwind</p>
             <img src="./images/skills/tailwind.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
             <p className="text-md text-blue-100 lg:text-lg">Kotlin</p>
             <img src="./images/skills/kotlin.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
             <p className="text-md text-blue-100 lg:text-lg">CorelDraw</p>
             <img src="./images/skills/corel.svg" className="h-[61px] lg:h-[71px]" />
           </div>
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[80px] lg:w-[120px]">
+          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
             <p className="text-md text-blue-100 lg:text-lg">Git</p>
             <img src="./images/skills/git.svg" className="h-[61px] lg:h-[71px]" />
           </div>

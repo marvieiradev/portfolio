@@ -14,13 +14,11 @@ body {
 
 .titles {
   font-family: 'League Spartan', sans-serif;
-  text-transform: uppercase;
   text-shadow: 1px 2px 2px #3B82F6;
 }
 
 .no-title {
   font-family: 'League Spartan', sans-serif;
-  text-transform: uppercase;
 }
 
 .main {
@@ -123,6 +121,12 @@ span {
   100% {
     opacity: 1;
     filter: blur(0);
+  }
+}
+
+@keyframes opacity {
+  100% {
+    opacity: 0;
   }
 }
 
