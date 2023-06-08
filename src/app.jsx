@@ -4,6 +4,8 @@ import Modal1 from "./components/Modal1";
 import Modal2 from "./components/Modal2";
 import Modal3 from "./components/Modal3";
 import Modal4 from "./components/Modal4";
+import Skill from "./components/Skill";
+import Contact from "./components/Contact";
 
 export function App() {
 
@@ -34,7 +36,7 @@ export function App() {
         <div className="flex md:space-y-[100px]">
 
           <div className="container flex flex-col items-center md:flex-row space-y-4 lg:space-y-0 md:space-x-32 lg:space-x-40">
-            
+
             <div className="flex flex-col space-y-4 md:flex-1 md:space-y-6">
               <div className="main flex flex-col items-center md:items-start">
                 <span className="text-3xl lg:text-5xl lg:text-left">Olá, eu sou o</span>
@@ -81,45 +83,14 @@ export function App() {
 
         <div className="container flex flex-wrap justify-center my-10 px-3">
 
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
-            <p className="text-md text-blue-100 lg:text-lg">HTML5</p>
-            <img src="./images/skills/html.svg" className="h-[61px] lg:h-[71px]" />
-          </div>
-
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
-            <p className="text-md text-blue-100 lg:text-lg">CSS3</p>
-            <img src="./images/skills/css.svg" className="h-[61px] lg:h-[71px]" />
-          </div>
-
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
-            <p className="text-md text-blue-100 lg:text-lg">JavaScript</p>
-            <img src="./images/skills/javascript.svg" className="h-[61px] lg:h-[71px]" />
-          </div>
-
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
-            <p className="text-md text-blue-100 lg:text-lg">SASS</p>
-            <img src="./images/skills/sass.svg" className="h-[61px] lg:h-[71px]" />
-          </div>
-
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
-            <p className="text-md text-blue-100 lg:text-lg">Tailwind</p>
-            <img src="./images/skills/tailwind.svg" className="h-[61px] lg:h-[71px]" />
-          </div>
-
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
-            <p className="text-md text-blue-100 lg:text-lg">Kotlin</p>
-            <img src="./images/skills/kotlin.svg" className="h-[61px] lg:h-[71px]" />
-          </div>
-
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
-            <p className="text-md text-blue-100 lg:text-lg">CorelDraw</p>
-            <img src="./images/skills/corel.svg" className="h-[61px] lg:h-[71px]" />
-          </div>
-
-          <div className="cursor-pointer hover:scale-110 flex flex-col mx-2 my-2 items-center space-y-3 py-3 px-6 bg-darker rounded-br-xl rounded-tl-xl border-b-4 border-blue-500 w-[90px] lg:w-[120px]">
-            <p className="text-md text-blue-100 lg:text-lg">Git</p>
-            <img src="./images/skills/git.svg" className="h-[61px] lg:h-[71px]" />
-          </div>
+          <Skill text="HTML5" logo="html" />
+          <Skill text="CSS3" logo="css" />
+          <Skill text="JavaScript" logo="javascript" />
+          <Skill text="SASS" logo="sass" />
+          <Skill text="Tailwind" logo="tailwind" />
+          <Skill text="Kotlin" logo="kotlin" />
+          <Skill text="CorelDraw" logo="corel" />
+          <Skill text="Git" logo="git" />
 
         </div>
 
@@ -208,40 +179,17 @@ export function App() {
           <div id="icons" className="container max-w-6xl flex flex-row justify-center">
             <div className="flex justify-center">
               <div className="flex flex-col space-y-6 md:space-x-6 md:space-y-0 md:flex-row">
+
                 <div className="container flex space-x-6 justify-center md:justify-end">
-                  <a href="mailto:marvieiradev@gmail.com" target="_blank">
-                    <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
-                      <img src="./images/contacts/email.svg" className="w-20 pb-2" />
-                      <h3 cla>Email</h3>
-                      <h3>marvieiradev@gmail.com</h3>
-                    </div>
-                  </a>
-                  <a href="https://api.whatsapp.com/send?phone=5585986099213" target="_blank">
-                    <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
-                      <img src="./images/contacts/phone.svg" className="w-20 pb-2" />
-                      <h3>Telefone</h3>
-                      <h3>(85) 98609.9213</h3>
-                    </div>
-                  </a>
+                  <Contact link="mailto:marvieiradev@gmail.com" icone="email" titulo="Email" info="marvieiradev@gmail.com" />
+                  <Contact link="https://api.whatsapp.com/send?phone=5585986099213" icone="phone" titulo="Telefone" info="(85) 98609.9213" />
                 </div>
 
                 <div className="container flex space-x-6 justify-center md:justify-start">
-                  <a href="https://www.linkedin.com/in/marcos-vieira-b5407192/" target="_blank">
-                    <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
-                      <img src="./images/contacts/linkedin.svg" className="w-20 pb-2" />
-                      <h3>Linkedin</h3>
-                      <h3>Marcos Vieira</h3>
-                    </div>
-                  </a>
-
-                  <a href="https://github.com/marvieiradev" target="_blank">
-                    <div className="hover:scale-110 flex flex-col items-center px-2 w-[150px]">
-                      <img src="./images/contacts/github.svg" className="w-20 pb-2" />
-                      <h3>Github</h3>
-                      <h3>marvieiradev</h3>
-                    </div>
-                  </a>
+                  <Contact link="https://www.linkedin.com/in/marcos-vieira-b5407192/" icone="linkedin" titulo="Linkedin" info="Marcos Vieira" />
+                  <Contact link="https://github.com/marvieiradev" icone="github" titulo="Github" info="marvieiradev" />
                 </div>
+
               </div>
             </div>
           </div>
