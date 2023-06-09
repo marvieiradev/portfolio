@@ -1,4 +1,7 @@
 import React from "react"
+import ModalHeader from "./modal/ModalHeader";
+import ModalBody from "./modal/ModalBody";
+import ModalFooter from "./modal/ModalFooter";
 
 export default function Modal2({ visible, onClose }) {
     const handleOnClose = (e) => {
@@ -14,35 +17,23 @@ export default function Modal2({ visible, onClose }) {
                 </div>
 
                 <div className="flex flex-col items-center px-2 lg:flex-row lg:space-x-6 lg:px-6">
-                    <div className="flex justify-center ">
-                        <iframe className="w-[300px] h-[180px] md:w-[400px] md:h-[250px] lg:w-[640px] lg:h-[360px]" src="https://www.youtube.com/embed/x_jn4Ne2PaE" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <ModalHeader link="https://www.youtube.com/embed/x_jn4Ne2PaE" />
 
-                    <div className="flex flex-col justify-center p-5 space-y-4 lg:justify-start">
-                        <h1 id="md-title" className="titles text-2xl text-center font-bold text-blue-300 lg:text-2xl">God of War</h1>
-                        <p className="text-xs lg:text-base">Interface do site do jogo "God of War Ragnarök" a página conta com animações ao usar o scroll do mouse e é totalmente responsiva, sendo exibida perfeitamente no desktop e mobile.</p>
-                        <p className="text-xs lg:text-base">
-                            <p>Projeto desenvolvido no evento Semana Front-end da Codeboost.</p>
-                            <br></br>
-                            <p>Tecnologias Utilizadas:</p>
-                            <p>• Javascript</p>
-                            <p>• CSS e HTML com SASS</p>
-                        </p>
-                        <p className="text-md font-bold text-blue-500 md:text-lg">Novembro de 2022</p>
-                    </div>
-
+                    <ModalBody
+                        titulo="God of War"
+                        subtitulo={`Interface do site do jogo "God of War Ragnarök" a página conta com animações ao usar o scroll do mouse e é totalmente responsiva, sendo exibida perfeitamente no desktop e mobile.`}
+                        infos={`<p>Projeto desenvolvido no evento Semana Front-end da Codeboost.</p>
+                        <br>
+                        <p>Tecnologias Utilizadas:</p>
+                        <p>• Javascript</p>
+                        <p>• CSS e HTML com SASS</p>`}
+                        data="Novembro de 2022"
+                    />
                 </div>
-
-                <div className="flex justify-center p-4">
-                    <div className="flex flex-row space-x-4 justify-center lg:justify-start">
-                        <a href="https://god-of-war-red.vercel.app/" target="_blank" className="text-center font-bold text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 text-xs px-6 py-2 rounded-xl md:text-md">
-                            Acessar Projeto
-                        </a>
-                        <a href="https://github.com/marvieiradev/god-of-war" target="_blank" className="text-center font-bold text-blue-100 border border-blue-100 text-xs px-6 py-2 rounded-xl md:text-md">
-                            Acessar Repositório
-                        </a>
-                    </div>
-                </div>
+                <ModalFooter
+                    linkbtn1="https://god-of-war-red.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/god-of-war" txtbtn2="Acessar Repositório"
+                />
             </div>
         </div>
     )
