@@ -6,6 +6,7 @@ import Modal3 from "./components/Modal3";
 import Modal4 from "./components/Modal4";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
+import Project from "./components/Project";
 
 export function App() {
 
@@ -103,66 +104,28 @@ export function App() {
 
         <div className="container flex flex-wrap justify-center my-10 px-3">
 
-          <div className="project-1 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal1(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
-              <p className="text-xl shadow-3xl">Meu Palpite</p>
-              <div className="flex flex-row item-center space-x-2">
-                <img className="w-[20px]" src="./images/skills/html.svg" />
-                <img className="w-[20px]" src="./images/skills/css.svg" />
-                <img className="w-[20px]" src="./images/skills/javascript.svg" />
-                <img className="w-[20px]" src="./images/skills/tailwind.svg" />
-              </div>
-            </div>
+          <div onClick={() => { setShowModal1(true) }}>
+            <Project classe="project-1" titulo="Meu Palpite" img1="html" img2="css" img3="javascript" img4="tailwind" cls5="hidden" />
           </div>
 
-          <div className="project-2 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal2(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
-              <p className="text-xl shadow-3xl">God of War</p>
-              <div className="flex flex-row item-center space-x-2">
-                <img className="w-[20px]" src="./images/skills/html.svg" />
-                <img className="w-[20px]" src="./images/skills/css.svg" />
-                <img className="w-[20px]" src="./images/skills/javascript.svg" />
-                <img className="w-[20px]" src="./images/skills/sass.svg" />
-              </div>
-            </div>
+          <div onClick={() => { setShowModal2(true) }}>
+            <Project classe="project-2" titulo="God of War" img1="html" img2="css" img3="javascript" img4="sass" cls5="hidden" />
           </div>
 
-          <div className="project-3 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal3(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-90 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
-              <p className="text-xl shadow-3xl">Quiz Hunter</p>
-              <div className="flex flex-row item-center space-x-2">
-                <img className="w-[20px]" src="./images/skills/kotlin.svg" />
-              </div>
-            </div>
+          <div onClick={() => { setShowModal3(true) }}>
+            <Project classe="project-3" titulo="Quiz Hunter" img1="kotlin" cls2="hidden" cls3="hidden" cls4="hidden" cls5="hidden" />
           </div>
 
-          <div className="project-4 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal4(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
-              <p className="text-xl shadow-3xl">Pokedex</p>
-              <div className="flex flex-row item-center space-x-2">
-                <img className="w-[20px]" src="./images/skills/html.svg" />
-                <img className="w-[20px]" src="./images/skills/css.svg" />
-                <img className="w-[20px]" src="./images/skills/javascript.svg" />
-              </div>
-            </div>
+          <div onClick={() => { setShowModal4(true) }}>
+            <Project classe="project-4" titulo="Pokedex" img1="html" img2="css" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 
-          <div className="project-5 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
-              <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
-              <div className="flex flex-row item-center space-x-2">
-                <img className="w-[20px]" src="./images/skills/gear.svg" />
-              </div>
-            </div>
+          <div onClick={() => { setShowModal0(true) }}>
+            <Project classe="project-5" titulo="Em Desenvolvimento" img1="gear" cls2="hidden" cls3="hidden" cls4="hidden" cls5="hidden" />
           </div>
 
-          <div className="project-6 flex flex-col cursor-pointer mx-3 my-3 hover:scale-110 w-[300px] h-[200px] lg:w-96 lg:h-56 shadow-xl rounded-xl justify-center" onClick={() => { setShowModal0(true) }}>
-            <div className="flex flex-col bg-darker bg-opacity-70 justify-center items-center space-y-2 rounded-xl w-[300px] h-[200px] lg:w-96 lg:h-56 hover:opacity-0">
-              <p className="text-xl shadow-3xl">Em Desenvolvimento</p>
-              <div className="flex flex-row item-center space-x-2">
-                <img className="w-[20px]" src="./images/skills/gear.svg" />
-              </div>
-            </div>
+          <div onClick={() => { setShowModal0(true) }}>
+            <Project classe="project-6" titulo="Em Desenvolvimento" img1="gear" cls2="hidden" cls3="hidden" cls4="hidden" cls5="hidden" />
           </div>
 
         </div>
