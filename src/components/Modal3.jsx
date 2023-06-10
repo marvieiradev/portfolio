@@ -2,6 +2,8 @@ import React from "react"
 import ModalHeader from "./modal/ModalHeader";
 import ModalBody from "./modal/ModalBody";
 import ModalFooter from "./modal/ModalFooter";
+import ModalButton from "./modal/ModalButton";
+import ModalGlobal from "./modal/ModalGlobal";
 
 export default function Modal3({ visible, onClose }) {
     const handleOnClose = (e) => {
@@ -10,13 +12,14 @@ export default function Modal3({ visible, onClose }) {
     if (!visible) return null;
 
     return (
-        <div id="container" onClick={handleOnClose} className="fixed top-10 z-30 inset-0 bg-dark bg-opacity-80 backdrop-blur-sm flex justify-center items-center">
-            <div className="bg-darker text-white p-2 rounded-xl max-w-[340px] md:max-w-lg lg:max-w-6xl">
-                <div className="flex justify-end z-31">
-                    <button onClick={onClose} className="no-title text-base lg:text-lg text-white px-2">X</button>
+        <div id="container" onClick={handleOnClose} className={ModalGlobal.modalContainer}>
+            <div id="elements" className={ModalGlobal.modalElements}>
+
+                <div onClick={onClose}>
+                    <ModalButton />
                 </div>
 
-                <div className="flex flex-col items-center px-2 lg:flex-row lg:space-x-6 lg:px-6">
+                <div id="body" className={"flex flex-col" + ModalGlobal.modalBody}>
                     <ModalHeader link="https://www.youtube.com/embed/bQg7OMd2s5Y" />
 
                     <ModalBody
