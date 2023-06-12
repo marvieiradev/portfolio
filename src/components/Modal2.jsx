@@ -19,7 +19,7 @@ export default function Modal2({ visible, onClose }) {
                     <ModalButton />
                 </div>
 
-                <div id="body" className={"flex flex-col" +ModalGlobal.modalBody}>
+                <div id="body" className={"flex flex-col lg:flex-row" +ModalGlobal.modalBody}>
                     <ModalHeader link="https://www.youtube.com/embed/x_jn4Ne2PaE" />
 
                     <ModalBody
