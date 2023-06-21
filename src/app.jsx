@@ -4,6 +4,7 @@ import Modal1 from "./components/Modal1";
 import Modal2 from "./components/Modal2";
 import Modal3 from "./components/Modal3";
 import Modal4 from "./components/Modal4";
+import Modal5 from "./components/Modal5";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
@@ -15,12 +16,14 @@ export function App() {
   const [showModal2, setShowModal2] = useState(false)
   const [showModal3, setShowModal3] = useState(false)
   const [showModal4, setShowModal4] = useState(false)
+  const [showModal5, setShowModal5] = useState(false)
   const handleOnClose = () => {
     setShowModal0(false);
     setShowModal1(false);
     setShowModal2(false);
     setShowModal3(false);
-    setShowModal4(false)
+    setShowModal4(false);
+    setShowModal5(false)
   }
 
   return (
@@ -120,8 +123,8 @@ export function App() {
             <Project classe="project-4" titulo="Pokedex" img1="html" img2="css" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 
-          <div onClick={() => { setShowModal0(true) }}>
-            <Project classe="project-5" titulo="Em Desenvolvimento" img1="gear" cls2="hidden" cls3="hidden" cls4="hidden" cls5="hidden" />
+          <div onClick={() => { setShowModal5(true) }}>
+            <Project classe="project-5" titulo="App Clima" img1="html" img2="css" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 
           <div onClick={() => { setShowModal0(true) }}>
@@ -170,6 +173,7 @@ export function App() {
       <Modal2 onClose={handleOnClose} visible={showModal2} />
       <Modal3 onClose={handleOnClose} visible={showModal3} />
       <Modal4 onClose={handleOnClose} visible={showModal4} />
+      <Modal5 onClose={handleOnClose} visible={showModal5} />
 
     </>
   )
