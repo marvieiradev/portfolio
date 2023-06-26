@@ -85,7 +85,7 @@ export function App() {
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Habilidades</h1>
         </div>
 
-        <div className="container flex flex-wrap justify-center my-10 px-3">
+        <div className="container flex flex-wrap justify-center my-10 px-3 max-w-6xl">
 
           <Skill text="HTML5" logo="html" />
           <Skill text="CSS3" logo="css" />
@@ -94,7 +94,7 @@ export function App() {
           <Skill text="Tailwind" logo="tailwind" />
           <Skill text="Kotlin" logo="kotlin" />
           <Skill text="Git" logo="git" />
-          <Skill text="React" logo="react" />
+          <Skill text="React" logo="react" />        
 
         </div>
 
