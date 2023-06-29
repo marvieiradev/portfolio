@@ -91,10 +91,10 @@ export function App() {
           <Skill text="CSS3" logo="css" />
           <Skill text="JavaScript" logo="javascript" />
           <Skill text="SASS" logo="sass" />
-          <Skill text="Tailwind" logo="tailwind" />
+          <Skill text="Tailwind.CSS" logo="tailwind" />
           <Skill text="Kotlin" logo="kotlin" />
           <Skill text="Git" logo="git" />
-          <Skill text="React" logo="react" />        
+          <Skill text="React.JS" logo="reactjs" />        
 
         </div>
 
