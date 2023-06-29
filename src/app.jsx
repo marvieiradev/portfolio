@@ -94,7 +94,7 @@ export function App() {
           <Skill text="Tailwind.CSS" logo="tailwind" />
           <Skill text="Kotlin" logo="kotlin" />
           <Skill text="Git" logo="git" />
-          <Skill text="React.JS" logo="reactjs" />        
+          <Skill text="React.JS" logo="reactjs" />       
 
         </div>
 
@@ -108,7 +108,7 @@ export function App() {
         <div className="container flex flex-wrap justify-center my-10 px-3">
 
           <div onClick={() => { setShowModal1(true) }}>
-            <Project classe="project-1" titulo="Meu Palpite" img1="html" img2="css" img3="javascript" img4="tailwind" cls5="hidden" />
+            <Project classe="project-1" titulo="Meu Palpite" img1="html" img2="css" img3="javascript" img4="tailwind" img5="reactjs" />
           </div>
 
           <div onClick={() => { setShowModal2(true) }}>
