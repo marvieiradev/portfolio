@@ -53,12 +53,12 @@ body {
   scrollbar-width: none;
 }
 
-.project-1, .project-2, .project-3, .project-4, .project-5, .project-6{
+section .container div{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }  
+
 
 .project-1 {
   background-image: url("../../images/projects/project-1.jpg");
@@ -83,6 +83,18 @@ body {
 
 .project-6 {
   background-image: url("../../images/projects/project-6.jpg");
+}
+
+.project-7 {
+  background-image: url("../../images/projects/project-7.jpg");
+}
+
+.project-8 {
+  background-image: url("../../images/projects/project-8.jpg");
+}
+
+.project-9 {
+  background-image: url("../../images/projects/project-0.jpg");
 }
 
 .reveal {
