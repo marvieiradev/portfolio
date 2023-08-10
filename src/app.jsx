@@ -5,6 +5,10 @@ import Modal2 from "./components/Modal2";
 import Modal3 from "./components/Modal3";
 import Modal4 from "./components/Modal4";
 import Modal5 from "./components/Modal5";
+import Modal6 from "./components/Modal6";
+import Modal7 from "./components/Modal7";
+import Modal8 from "./components/Modal8";
+import Modal9 from "./components/Modal9";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
@@ -17,13 +21,21 @@ export function App() {
   const [showModal3, setShowModal3] = useState(false)
   const [showModal4, setShowModal4] = useState(false)
   const [showModal5, setShowModal5] = useState(false)
+  const [showModal6, setShowModal6] = useState(false)
+  const [showModal7, setShowModal7] = useState(false)
+  const [showModal8, setShowModal8] = useState(false)
+  const [showModal9, setShowModal9] = useState(false)
   const handleOnClose = () => {
     setShowModal0(false);
     setShowModal1(false);
     setShowModal2(false);
     setShowModal3(false);
     setShowModal4(false);
-    setShowModal5(false)
+    setShowModal5(false);
+    setShowModal6(false);
+    setShowModal7(false);
+    setShowModal8(false);
+    setShowModal9(false);
   }
 
   return (
@@ -85,7 +97,7 @@ export function App() {
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Habilidades</h1>
         </div>
 
-        <div className="container flex flex-wrap justify-center my-10 px-3 max-w-6xl">
+        <div className="container flex flex-wrap justify-center my-10 px-3 max-w-6xl md:px-5 xl:px-3">
 
           <Skill text="HTML5" logo="html" />
           <Skill text="CSS3" logo="css" />
@@ -188,6 +200,10 @@ export function App() {
       <Modal3 onClose={handleOnClose} visible={showModal3} />
       <Modal4 onClose={handleOnClose} visible={showModal4} />
       <Modal5 onClose={handleOnClose} visible={showModal5} />
+      <Modal6 onClose={handleOnClose} visible={showModal6} />
+      <Modal7 onClose={handleOnClose} visible={showModal7} />
+      <Modal8 onClose={handleOnClose} visible={showModal8} />
+      <Modal9 onClose={handleOnClose} visible={showModal9} />
 
     </>
   )
