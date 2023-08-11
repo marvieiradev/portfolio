@@ -51,7 +51,7 @@ export function App() {
       <section id="sobre" className="bg-dark text-white flex flex-col py-8 items-center space-y-4">
         <div className="flex md:space-y-[100px]">
 
-          <div className="container flex flex-col items-center md:flex-row space-y-4 lg:space-y-0 md:space-x-32 lg:space-x-40">
+          <div className="container flex flex-col items-center md:flex-row space-y-4 lg:space-y-0 md:space-x-24 lg:space-x-48 max-w-5xl">
 
             <div className="flex flex-col space-y-4 md:flex-1 md:space-y-6">
               <div className="main flex flex-col items-center md:items-start">
@@ -92,12 +92,12 @@ export function App() {
         </div>
       </section>
 
-      <section id="habilidades" className="reveal text-white flex flex-col py-10 space-y-4 md:space-y-8 items-center">
+      <section id="habilidades" className="reveal text-white flex flex-col py-10 space-y-4 md:space-y-8 items-center px-5">
         <div id="titulo-contato">
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Habilidades</h1>
         </div>
 
-        <div className="container flex flex-wrap justify-center my-10 px-3 max-w-6xl md:px-5 xl:px-3">
+        <div className="container flex flex-wrap justify-center my-10 max-w-5xl">
 
           <Skill text="HTML5" logo="html" />
           <Skill text="CSS3" logo="css" />
@@ -119,7 +119,7 @@ export function App() {
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Projetos</h1>
         </div>
 
-        <div className="container flex flex-wrap justify-center my-10 px-3">
+        <div className="container flex flex-wrap justify-center my-10 px-3 max-w-5xl">
 
           <div onClick={() => { setShowModal1(true) }}>
             <Project classe="project-1" titulo="Meu Palpite" img1="html" img2="css" img3="javascript" img4="tailwind" img5="reactjs" />
