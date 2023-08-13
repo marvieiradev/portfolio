@@ -24,14 +24,14 @@ export default function Modal6({ visible, onClose }) {
                     <ModalHeader link="https://" />
 
                     <ModalBody
-                        titulo="Editor de texto"
-                        subtitulo=""
-                        infos={`<p></p>
+                        titulo="Editor de Texto"
+                        subtitulo="Editor de texto simples usando HTML, CSS e Javascript."
+                        infos={`<p>É possível digitar e aplicar diversas formatações de texto, como tamanho da fonte, cor de fonte e estilo de texto (formatacão, inseris link, lista, identação). Também é possível salvar e carregar o texto no formato TXT</p>
                         <br>
                         <p>Tecnologias Utilizadas:</p>
                         <p>• Javascript</p>
                         <p>• CSS e HTML</p>`}
-                        data=""
+                        data="Agosto de 2023"
                     />
                 </div>
                 <ModalFooter
