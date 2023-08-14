@@ -25,13 +25,13 @@ export default function Modal7({ visible, onClose }) {
 
                     <ModalBody
                         titulo="Gerador de QR Code"
-                        subtitulo=""
-                        infos={`<p>.</p>
+                        subtitulo="Feito com apenas HTML, CSS e Javascript, esse é um gerador de QR code bem simples porém efetivo."
+                        infos={`<p>Com esse gerador é possível criar um QR code a partir de qualquer URL ou texto, Também é possível personalizar suas cores e fazer o download em formato PNG e SVG.</p>
                         <br>
                         <p>Tecnologias Utilizadas:</p>
                         <p>• Javascript</p>
                         <p>• CSS e HTML</p>`}
-                        data=""
+                        data="Agosto de 2023"
                     />
                 </div>
                 <ModalFooter
