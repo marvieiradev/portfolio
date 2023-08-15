@@ -21,12 +21,12 @@ export default function Modal6({ visible, onClose }) {
                 </div>
 
                 <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
-                    <ModalHeader link="https://" />
+                    <ModalHeader link="https://www.youtube.com/embed/uYdnN770dWc" />
 
                     <ModalBody
                         titulo="Editor de Texto"
                         subtitulo="Editor de texto simples usando HTML, CSS e Javascript."
-                        infos={`<p>É possível digitar e aplicar diversas formatações de texto, como tamanho da fonte, cor de fonte e estilo de texto (formatacão, inseris link, lista, identação). Também é possível salvar e carregar o texto no formato TXT</p>
+                        infos={`<p>É possível digitar e aplicar diversas formatações de texto, como tamanho da fonte, cor de fonte e estilo de texto (formatacão, inseris link, lista, identação). Também é possível salvar e carregar o texto no formato TXT.</p>
                         <br>
                         <p>Tecnologias Utilizadas:</p>
                         <p>• Javascript</p>
@@ -35,8 +35,8 @@ export default function Modal6({ visible, onClose }) {
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://" txtbtn1="Acessar Projeto"
-                    linkbtn2="https://" txtbtn2="Acessar Repositório"
+                    linkbtn1="https://marvieira-text-editor.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/text-editor" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>

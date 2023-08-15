@@ -141,7 +141,7 @@ export function App() {
             <Project classe="project-5" titulo="App Clima" img1="html" img2="css" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 
-          <div onClick={() => { setShowModal0(true) }}>
+          <div onClick={() => { setShowModal6(true) }}>
             <Project classe="project-6" titulo="Editor de Texto" img1="html" img2="css" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 
