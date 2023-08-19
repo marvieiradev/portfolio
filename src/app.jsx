@@ -145,7 +145,7 @@ export function App() {
             <Project classe="project-6" titulo="Editor de Texto" img1="html" img2="css" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 
-          <div onClick={() => { setShowModal0(true) }}>
+          <div onClick={() => { setShowModal7(true) }}>
             <Project classe="project-7" titulo="Gerador de QR Code" img1="html" img2="css" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 

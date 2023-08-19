@@ -21,7 +21,7 @@ export default function Modal7({ visible, onClose }) {
                 </div>
 
                 <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
-                    <ModalHeader link="https://" />
+                    <ModalHeader link="https://www.youtube.com/embed/dW2Dvo3y_qU" />
 
                     <ModalBody
                         titulo="Gerador de QR Code"
@@ -35,8 +35,8 @@ export default function Modal7({ visible, onClose }) {
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://" txtbtn1="Acessar Projeto"
-                    linkbtn2="https://" txtbtn2="Acessar Repositório"
+                    linkbtn1="https://qrcode-generator-marvieira.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/qrcode-generator" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>
