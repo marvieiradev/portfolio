@@ -108,7 +108,8 @@ export function App() {
           <Skill text="Git" logo="git" />
           <Skill text="React.JS" logo="reactjs" />
           <Skill text="Node.JS" logo="nodejs" /> 
-          <Skill text="TypeScript" logo="typescript" />        
+          <Skill text="TypeScript" logo="typescript" />
+          <Skill text="Bootstrap" logo="bootstrap" />        
 
         </div>
 
