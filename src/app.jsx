@@ -97,8 +97,7 @@ export function App() {
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">Habilidades</h1>
         </div>
 
-        <div className="container flex flex-wrap justify-center my-10 max-w-5xl">
-
+        <div className="container flex gap-1 flex-wrap justify-center my-10 max-w-5xl">
           <Skill text="HTML5" logo="html" />
           <Skill text="CSS3" logo="css" />
           <Skill text="JavaScript" logo="javascript" />
@@ -107,9 +106,10 @@ export function App() {
           <Skill text="Kotlin" logo="kotlin" />
           <Skill text="Git" logo="git" />
           <Skill text="React.JS" logo="reactjs" />
-          <Skill text="Node.JS" logo="nodejs" /> 
+          <Skill text="Node.JS" logo="nodejs" />
           <Skill text="TypeScript" logo="typescript" />
-          <Skill text="Bootstrap" logo="bootstrap" />        
+          <Skill text="Bootstrap" logo="bootstrap" />
+          <Skill text="Next" logo="nextjs" />
 
         </div>
 
