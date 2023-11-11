@@ -70,7 +70,9 @@ export function App() {
             </div>
 
             <div className="justify-center animblur">
-              <img src="./images/logo.png" className="h-48 md:h-[250px] lg:h-[300px] opacity-90 hover:opacity-100 hover:scale-110" />
+              <a href="https://github.com/marvieiradev" target="_blank">
+                <img src="./images/logo.png" className="h-48 md:h-[250px] lg:h-[300px] opacity-90 hover:opacity-100 hover:scale-110" />
+              </a>
             </div>
           </div>
 
