@@ -60,41 +60,41 @@ section .container div{
 }  
 
 
-.project-1 {
-  background-image: url("../../images/projects/project-1.jpg");
+.project-primary-01 {
+  background-image: url("../../images/projects/project-primary-01.jpg");
 
 }
 
-.project-2 {
-  background-image: url("../../images/projects/project-2.jpg");
+.project-primary-02 {
+  background-image: url("../../images/projects/project-primary-02.jpg");
 }
 
-.project-3 {
-  background-image: url("../../images/projects/project-3.jpg");
+.project-primary-03 {
+  background-image: url("../../images/projects/project-primary-03.jpg");
 }
 
-.project-4 {
-  background-image: url("../../images/projects/project-4.jpg");
+.project-primary-04 {
+  background-image: url("../../images/projects/project-primary-04.jpg");
 }
 
-.project-5 {
-  background-image: url("../../images/projects/project-5.jpg");
+.project-secondary-01 {
+  background-image: url("../../images/projects/project-secondary-01.jpg");
 }
 
-.project-6 {
-  background-image: url("../../images/projects/project-6.jpg");
+.project-secondary-02 {
+  background-image: url("../../images/projects/project-secondary-02.jpg");
 }
 
-.project-7 {
-  background-image: url("../../images/projects/project-7.jpg");
+.project-secondary-03 {
+  background-image: url("../../images/projects/project-secondary-03.jpg");
 }
 
-.project-8 {
-  background-image: url("../../images/projects/project-8.jpg");
+.project-secondary-04 {
+  background-image: url("../../images/projects/project-secondary-04.jpg");
 }
 
-.project-9 {
-  background-image: url("../../images/projects/project-0.jpg");
+.project-secondary-05 {
+  background-image: url("../../images/projects/project-secondary-05.jpg");
 }
 
 .reveal {
