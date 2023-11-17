@@ -38,8 +38,8 @@ export default function ModalPrimary01({ visible, onClose }) {
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://meupalpite-web.vercel.app/" txtbtn1="Acessar Projeto"
-                    linkbtn2="https://github.com/marvieiradev/meupalpite-web/" txtbtn2="Acessar Repositório"
+                    linkbtn1="https://1up-store.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/1up-store/" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>
