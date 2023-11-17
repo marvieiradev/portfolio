@@ -5,7 +5,7 @@ import ModalFooter from "./modal/ModalFooter";
 import ModalButton from "./modal/ModalButton";
 import ModalGlobal from "./modal/ModalGlobal";
 
-export default function Modal9({ visible, onClose }) {
+export default function ModalSecondary05({ visible, onClose }) {
     const handleOnClose = (e) => {
         if (e.target.id === 'container') onClose();
     }
@@ -24,13 +24,13 @@ export default function Modal9({ visible, onClose }) {
                     <ModalHeader link="https://" />
 
                     <ModalBody
-                        titulo=""
+                        titulo="Calculadora em Javascript"
                         subtitulo=""
-                        infos={`<p>.</p>
+                        infos={`<p></p>
                         <br>
                         <p>Tecnologias Utilizadas:</p>
-                        <p>• </p>
-                        <p>• </p>`}
+                        <p>• Javascript</p>
+                        <p>• CSS e HTML</p>`}
                         data=""
                     />
                 </div>

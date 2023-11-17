@@ -5,13 +5,14 @@ import ModalFooter from "./modal/ModalFooter";
 import ModalButton from "./modal/ModalButton";
 import ModalGlobal from "./modal/ModalGlobal";
 
-export default function Modal2({ visible, onClose }) {
+export default function ModalSecondary04({ visible, onClose }) {
     const handleOnClose = (e) => {
         if (e.target.id === 'container') onClose();
     }
     if (!visible) return null;
 
     return (
+
         <div id="container" onClick={handleOnClose} className={ModalGlobal.modalContainer}>
             <div id="elements" className={ModalGlobal.modalElements}>
 
@@ -19,23 +20,23 @@ export default function Modal2({ visible, onClose }) {
                     <ModalButton />
                 </div>
 
-                <div id="body" className={"flex flex-col lg:flex-row " +ModalGlobal.modalBody}>
-                    <ModalHeader link="https://www.youtube.com/embed/x_jn4Ne2PaE" />
+                <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
+                    <ModalHeader link="https://www.youtube.com/embed/dW2Dvo3y_qU" />
 
                     <ModalBody
-                        titulo="God of War"
-                        subtitulo={`Interface do site do jogo "God of War Ragnarök" a página conta com animações ao usar o scroll do mouse e é totalmente responsiva, sendo exibida perfeitamente no desktop e mobile.`}
-                        infos={`<p>Projeto desenvolvido no evento Semana Front-end da Codeboost.</p>
+                        titulo="Gerador de QR Code"
+                        subtitulo="Feito com apenas HTML, CSS e Javascript, esse é um gerador de QR code bem simples porém efetivo."
+                        infos={`<p>Com esse gerador é possível criar um QR code a partir de qualquer URL ou texto, Também é possível personalizar suas cores e fazer o download em formato PNG e SVG.</p>
                         <br>
                         <p>Tecnologias Utilizadas:</p>
                         <p>• Javascript</p>
-                        <p>• CSS e HTML com SASS</p>`}
-                        data="Novembro de 2022"
+                        <p>• CSS e HTML</p>`}
+                        data="Agosto de 2023"
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://god-of-war-red.vercel.app/" txtbtn1="Acessar Projeto"
-                    linkbtn2="https://github.com/marvieiradev/god-of-war" txtbtn2="Acessar Repositório"
+                    linkbtn1="https://qrcode-generator-marvieira.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/qrcode-generator" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>

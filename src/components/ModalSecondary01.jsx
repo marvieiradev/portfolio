@@ -5,7 +5,7 @@ import ModalFooter from "./modal/ModalFooter";
 import ModalButton from "./modal/ModalButton";
 import ModalGlobal from "./modal/ModalGlobal";
 
-export default function Modal5({ visible, onClose }) {
+export default function ModalSecondary01({ visible, onClose }) {
     const handleOnClose = (e) => {
         if (e.target.id === 'container') onClose();
     }
@@ -21,22 +21,22 @@ export default function Modal5({ visible, onClose }) {
                 </div>
 
                 <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
-                    <ModalHeader link="https://www.youtube.com/embed/-IyWFNZ4SZI" />
+                    <ModalHeader link="https://www.youtube.com/embed/MlT2C0ZuSf4" />
 
                     <ModalBody
-                        titulo="App Clima"
-                        subtitulo="Aplicativo simples de clima usando HTML, CSS e Javascript."
-                        infos={`<p>O aplicativo mostra as condições do clima do em tempo real do local pesquisado, como temperaturas mínima e máxima, além da humidade e velocidade do vento. Os dados são obtidos diretamente da "Weather API".</p>
+                        titulo="Pokedex"
+                        subtitulo="Pokedex desenvolvida usando HTML, CSS e Javascript."
+                        infos={`<p>As informações dos pokemons são exibidas dinamicamnte usando JSON que carrega os dados diretamente de uma API, a "PokeApi".</p>
                         <br>
                         <p>Tecnologias Utilizadas:</p>
                         <p>• Javascript</p>
                         <p>• CSS e HTML</p>`}
-                        data="Junho de 2023"
+                        data="Maio de 2023"
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://app-clima-v1.vercel.app/" txtbtn1="Acessar Projeto"
-                    linkbtn2="https://github.com/marvieiradev/app-clima" txtbtn2="Acessar Repositório"
+                    linkbtn1="https://pokedex-v1-one.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/pokedex-v1" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>

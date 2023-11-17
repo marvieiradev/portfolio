@@ -5,7 +5,7 @@ import ModalFooter from "./modal/ModalFooter";
 import ModalButton from "./modal/ModalButton";
 import ModalGlobal from "./modal/ModalGlobal";
 
-export default function Modal11({ visible, onClose }) {
+export default function ModalPrimary02({ visible, onClose }) {
     const handleOnClose = (e) => {
         if (e.target.id === 'container') onClose();
     }

@@ -5,14 +5,13 @@ import ModalFooter from "./modal/ModalFooter";
 import ModalButton from "./modal/ModalButton";
 import ModalGlobal from "./modal/ModalGlobal";
 
-export default function Modal7({ visible, onClose }) {
+export default function ModalPrimary03({ visible, onClose }) {
     const handleOnClose = (e) => {
         if (e.target.id === 'container') onClose();
     }
     if (!visible) return null;
 
     return (
-
         <div id="container" onClick={handleOnClose} className={ModalGlobal.modalContainer}>
             <div id="elements" className={ModalGlobal.modalElements}>
 
@@ -21,22 +20,21 @@ export default function Modal7({ visible, onClose }) {
                 </div>
 
                 <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
-                    <ModalHeader link="https://www.youtube.com/embed/dW2Dvo3y_qU" />
+                    <ModalHeader link="https://www.youtube.com/embed/bQg7OMd2s5Y" />
 
                     <ModalBody
-                        titulo="Gerador de QR Code"
-                        subtitulo="Feito com apenas HTML, CSS e Javascript, esse é um gerador de QR code bem simples porém efetivo."
-                        infos={`<p>Com esse gerador é possível criar um QR code a partir de qualquer URL ou texto, Também é possível personalizar suas cores e fazer o download em formato PNG e SVG.</p>
+                        titulo="Quiz Hunter"
+                        subtitulo={`Aplicativo/Jogo em formato de quiz, Baseado no jogo "Monster Hunter" da Capcom. Onde o objetivo é acertar o nome correto dos monstros da franquia, representados pela sua figura.`}
+                        infos={`<p>Projeto desenvolvido totalmente em Kotlin nativo. Utlizando o Android Studio.</p>
                         <br>
                         <p>Tecnologias Utilizadas:</p>
-                        <p>• Javascript</p>
-                        <p>• CSS e HTML</p>`}
-                        data="Agosto de 2023"
+                        <p>• Kotlin</p>`}
+                        data="Abril de 2023"
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://qrcode-generator-marvieira.vercel.app/" txtbtn1="Acessar Projeto"
-                    linkbtn2="https://github.com/marvieiradev/qrcode-generator" txtbtn2="Acessar Repositório"
+                    linkbtn1="https://play.google.com/store/apps/details?id=com.mvieira.quizhunter" txtbtn1="Ver aplicativo publicado na Google Play"
+                    clsbtn2="hidden"
                 />
             </div>
         </div>
