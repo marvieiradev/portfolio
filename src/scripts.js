@@ -16,3 +16,14 @@ window.addEventListener("scroll", reveal);
 
 reveal();
 
+const favIconTag = document.getElementById("favIconTag");
+const isDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+const changeFavicon = () => {
+  if (isDark.matches) favIconTag.href = "/icon-dark.svg";
+  else favIconTag.href = "/icon-light.svg";
+};
+
+changeFavicon();
+isDark.addEventListener("change", changeFavicon);
+
