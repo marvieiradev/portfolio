@@ -53,11 +53,11 @@ body {
   scrollbar-width: none;
 }
 
-section .container div{
+section .container div {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}  
+}
 
 
 .project-primary-01 {
@@ -75,6 +75,10 @@ section .container div{
 
 .project-primary-04 {
   background-image: url("../../images/projects/project-primary-04.jpg");
+}
+
+.project-primary-05 {
+  background-image: url("../../images/projects/project-primary-05.jpg");
 }
 
 .project-secondary-01 {
