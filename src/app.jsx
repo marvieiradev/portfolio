@@ -128,20 +128,20 @@ export function App() {
             <Project classe="project-primary-05" titulo="Best Trip" img1="reactjs" img2="nextjs" img3="tailwind" cls4="hidden" cls5="hidden" />
           </div>
 
-          <div onClick={() => { setShowModalPrimary01(true) }}>
-            <Project classe="project-primary-01" titulo="1UP Store" img1="reactjs" img2="nextjs" img3="tailwind" cls4="hidden" cls5="hidden" />
-          </div>
-
-          <div onClick={() => { setShowModalPrimary02(true) }}>
-            <Project classe="project-primary-02" titulo="Meu Palpite" img1="html" img2="css" img3="javascript" img4="tailwind" img5="reactjs" />
+          <div onClick={() => { setShowModalPrimary04(true) }}>
+            <Project classe="project-primary-04" titulo="1UP Store" img1="reactjs" img2="nextjs" img3="tailwind" cls4="hidden" cls5="hidden" />
           </div>
 
           <div onClick={() => { setShowModalPrimary03(true) }}>
-            <Project classe="project-primary-03" titulo="Quiz Hunter" img1="kotlin" cls2="hidden" cls3="hidden" cls4="hidden" cls5="hidden" />
+            <Project classe="project-primary-03" titulo="Meu Palpite" img1="html" img2="css" img3="javascript" img4="tailwind" img5="reactjs" />
           </div>
 
-          <div onClick={() => { setShowModalPrimary04(true) }}>
-            <Project classe="project-primary-04" titulo="God of War" img1="html" img2="css" img3="javascript" img4="sass" cls5="hidden" />
+          <div onClick={() => { setShowModalPrimary02(true) }}>
+            <Project classe="project-primary-02" titulo="Quiz Hunter" img1="kotlin" cls2="hidden" cls3="hidden" cls4="hidden" cls5="hidden" />
+          </div>
+
+          <div onClick={() => { setShowModalPrimary01(true) }}>
+            <Project classe="project-primary-01" titulo="God of War" img1="html" img2="css" img3="javascript" img4="sass" cls5="hidden" />
           </div>
 
           <div onClick={() => { setShowModalSecondary01(true) }}>

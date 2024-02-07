@@ -20,26 +20,22 @@ export default function ModalPrimary01({ visible, onClose }) {
                 </div>
 
                 <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
-                    <ModalHeader link="https://www.youtube.com/embed/bPzSzFn7-8E" />
+                    <ModalHeader link="https://www.youtube.com/embed/x_jn4Ne2PaE" />
 
                     <ModalBody
-                        titulo="1UP Store"
-                        subtitulo="E-commerce desenvolvido durante a Full Stack Week, um evento cujo objetivo principal é criar um projeto altamente relevante, utilizando as tecnologias mais modernas e demandadas pelo mercado."
-                        infos={`
-                            <p>Tecnologias Utilizadas:</p>
-                                <p>• React</p>
-                                <p>• Next.js 13</p>
-                                <p>• Next Auth</p>
-                                <p>• Postgres</p>
-                                <p>• Prisma</p>
-                                <p>• Tailwind CSS</p>
-                                <p>• API do Stripe</p>`}
-                        data="Novembro de 2023"
+                        titulo="God of War"
+                        subtitulo={`Interface do site do jogo "God of War Ragnarök" a página conta com animações ao usar o scroll do mouse e é totalmente responsiva, sendo exibida perfeitamente no desktop e mobile.`}
+                        infos={`<p>Projeto desenvolvido no evento Semana Front-end da Codeboost.</p>
+                        <br>
+                        <p>Tecnologias Utilizadas:</p>
+                        <p>• Javascript</p>
+                        <p>• CSS e HTML com SASS</p>`}
+                        data="Novembro de 2022"
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://1up-store.vercel.app/" txtbtn1="Acessar Projeto"
-                    linkbtn2="https://github.com/marvieiradev/1up-store/" txtbtn2="Acessar Repositório"
+                    linkbtn1="https://god-of-war-red.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/god-of-war" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>

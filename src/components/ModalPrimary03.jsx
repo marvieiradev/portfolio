@@ -20,21 +20,24 @@ export default function ModalPrimary03({ visible, onClose }) {
                 </div>
 
                 <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
-                    <ModalHeader link="https://www.youtube.com/embed/bQg7OMd2s5Y" />
+                    <ModalHeader link="https://www.youtube.com/embed/jtkRr3sUO0k" />
 
                     <ModalBody
-                        titulo="Quiz Hunter"
-                        subtitulo={`Aplicativo/Jogo em formato de quiz, Baseado no jogo "Monster Hunter" da Capcom. Onde o objetivo é acertar o nome correto dos monstros da franquia, representados pela sua figura.`}
-                        infos={`<p>Projeto desenvolvido totalmente em Kotlin nativo. Utlizando o Android Studio.</p>
-                        <br>
-                        <p>Tecnologias Utilizadas:</p>
-                        <p>• Kotlin</p>`}
-                        data="Abril de 2023"
+                        titulo="Meu Palpite"
+                        subtitulo="Meu Palpite é um aplicativo onde o usuário pode registrar seus palpites nos jogos da Copa do Mundo 2022, também é possivel compartilhar seus palpites."
+                        infos={`<p>Projeto desenvolvido no evento Full Stack Challenge da Codar.me.</p>
+                            <br>
+                            <p>Tecnologias Utilizadas:</p>
+                            <p>• Javascript</p>
+                            <p>• NodeJS com Koa</p>
+                            <p>• CSS e HTML com Tailwind</p>
+                            <p>• Banco de dados com Prisma e PlanetScale</p>`}
+                        data="Novembro de 2022"
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://play.google.com/store/apps/details?id=com.mvieira.quizhunter" txtbtn1="Ver aplicativo publicado na Google Play"
-                    clsbtn2="hidden"
+                    linkbtn1="https://meupalpite-web.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/meupalpite-web/" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>
