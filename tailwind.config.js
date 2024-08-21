@@ -4,11 +4,11 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  container:{
+  container: {
     center: true
   },
   theme: {
-    fontSize:{
+    fontSize: {
       xs: ['12px', '16px'],
       sm: ['14px', '18px'],
       base: ['16px', '24px'],
@@ -20,11 +20,12 @@ module.exports = {
       '5xl': ['64px', '70px'],
     },
     extend: {
-      colors:{
+      colors: {
         black: '#111111',
         white: '#FFFFFF',
         dark: '#00021A',
         darker: '#0B0E39',
+        darkerlight: '#141954',
         darker2: '#0B0E32',
         blue: {
           100: '#BFDBFE',
