@@ -34,7 +34,7 @@ export default function ModalPrimary02({ visible, onClose }) {
                 </div>
                 <ModalFooter
                     linkbtn1="https://play.google.com/store/apps/details?id=com.mvieira.quizhunter" txtbtn1="Ver aplicativo publicado na Google Play"
-                    clsbtn2="hidden"
+                    linkbtn2="https://github.com/marvieiradev/quiz-hunter" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>
