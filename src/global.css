@@ -59,10 +59,12 @@ section .container div {
   background-position: center;
 }
 
+.project-empty {
+  background-image: url("../../images/projects/project-empty.jpg");
+}
 
 .project-primary-01 {
   background-image: url("../../images/projects/project-primary-01.jpg");
-
 }
 
 .project-primary-02 {

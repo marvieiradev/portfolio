@@ -5,6 +5,7 @@ import ModalPrimary02 from "./components/ModalPrimary02";
 import ModalPrimary03 from "./components/ModalPrimary03";
 import ModalPrimary04 from "./components/ModalPrimary04";
 import ModalPrimary05 from "./components/ModalPrimary05";
+import ModalPrimary06 from "./components/ModalPrimary06";
 import ModalSecondary01 from "./components/ModalSecondary01";
 import ModalSecondary02 from "./components/ModalSecondary02";
 import ModalSecondary03 from "./components/ModalSecondary03";
@@ -23,6 +24,7 @@ export function App() {
   const [showModalPrimary03, setShowModalPrimary03] = useState(false)
   const [showModalPrimary04, setShowModalPrimary04] = useState(false)
   const [showModalPrimary05, setShowModalPrimary05] = useState(false)
+  const [showModalPrimary06, setShowModalPrimary06] = useState(false)
   const [showModalSecondary01, setShowModalSecondary01] = useState(false)
   const [showModalSecondary02, setShowModalSecondary02] = useState(false)
   const [showModalSecondary03, setShowModalSecondary03] = useState(false)
@@ -36,6 +38,7 @@ export function App() {
     setShowModalPrimary03(false);
     setShowModalPrimary04(false);
     setShowModalPrimary05(false);
+    setShowModalPrimary06(false);
     setShowModalSecondary01(false);
     setShowModalSecondary02(false);
     setShowModalSecondary03(false);
@@ -124,6 +127,10 @@ export function App() {
 
         <div className="container flex flex-wrap justify-center my-10 px-3 max-w-5xl">
 
+          <div onClick={() => { setShowModalEmpty(true) }}>
+            <Project classe="project-empty" titulo="Monster Quiz" img1="gear" cls2="hidden" cls3="hidden" cls4="hidden" cls5="hidden" />
+          </div>
+
           <div onClick={() => { setShowModalPrimary05(true) }}>
             <Project classe="project-primary-05" titulo="Best Trip" img1="reactjs" img2="nextjs" img3="tailwind" cls4="hidden" cls5="hidden" />
           </div>
@@ -206,6 +213,7 @@ export function App() {
       <ModalPrimary03 onClose={handleOnClose} visible={showModalPrimary03} />
       <ModalPrimary04 onClose={handleOnClose} visible={showModalPrimary04} />
       <ModalPrimary05 onClose={handleOnClose} visible={showModalPrimary05} />
+      <ModalPrimary06 onClose={handleOnClose} visible={showModalPrimary06} />
       <ModalSecondary01 onClose={handleOnClose} visible={showModalSecondary01} />
       <ModalSecondary02 onClose={handleOnClose} visible={showModalSecondary02} />
       <ModalSecondary03 onClose={handleOnClose} visible={showModalSecondary03} />
