@@ -128,15 +128,15 @@ export function App() {
         <div className="container flex flex-wrap justify-center my-10 px-3 max-w-5xl">
 
           <div onClick={() => { setShowModalEmpty(true) }}>
-            <Project classe="project-empty" titulo="Monster Quiz" img1="gear" cls2="hidden" cls3="hidden" cls4="hidden" cls5="hidden" />
+            <Project classe="project-primary-06" titulo="Monster Quiz" img1="reactjs" img2="tailwind" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 
           <div onClick={() => { setShowModalPrimary05(true) }}>
-            <Project classe="project-primary-05" titulo="Best Trip" img1="reactjs" img2="nextjs" img3="tailwind" cls4="hidden" cls5="hidden" />
+            <Project classe="project-primary-05" titulo="Best Trip" img1="reactjs" img2="nextjs" img3="typescript" img4="tailwind" cls5="hidden" />
           </div>
 
           <div onClick={() => { setShowModalPrimary04(true) }}>
-            <Project classe="project-primary-04" titulo="1UP Store" img1="reactjs" img2="nextjs" img3="tailwind" cls4="hidden" cls5="hidden" />
+            <Project classe="project-primary-04" titulo="1UP Store" img1="reactjs" img2="nextjs" img3="typescript" img4="tailwind" cls5="hidden" />
           </div>
 
           <div onClick={() => { setShowModalPrimary03(true) }}>

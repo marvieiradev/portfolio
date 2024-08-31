@@ -83,6 +83,10 @@ section .container div {
   background-image: url("../../images/projects/project-primary-05.jpg");
 }
 
+.project-primary-06 {
+  background-image: url("../../images/projects/project-primary-06.jpg");
+}
+
 .project-secondary-01 {
   background-image: url("../../images/projects/project-secondary-01.jpg");
 }
