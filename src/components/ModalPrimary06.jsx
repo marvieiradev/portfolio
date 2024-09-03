@@ -20,7 +20,7 @@ export default function ModalPrimary06({ visible, onClose }) {
                 </div>
 
                 <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
-                    <ModalHeader link="https://www.youtube.com/" />
+                    <ModalHeader link="https://www.youtube.com/embed/gzT9r1_kpQI" />
 
                     <ModalBody
                         titulo="Monster Quiz"

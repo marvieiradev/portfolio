@@ -127,7 +127,7 @@ export function App() {
 
         <div className="container flex flex-wrap justify-center my-10 px-3 max-w-5xl">
 
-          <div onClick={() => { setShowModalEmpty(true) }}>
+          <div onClick={() => { setShowModalPrimary06(true) }}>
             <Project classe="project-primary-06" titulo="Monster Quiz" img1="reactjs" img2="tailwind" img3="javascript" cls4="hidden" cls5="hidden" />
           </div>
 
