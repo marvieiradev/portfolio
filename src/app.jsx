@@ -177,6 +177,22 @@ export function App() {
         <div className="container flex flex-wrap justify-center my-10 px-3 max-w-5xl">
           <div
             onClick={() => {
+              setShowModalEmpty(true);
+            }}
+          >
+            <Project
+              classe="project-empty"
+              titulo="King Barber"
+              img1="reactjs"
+              img2="nextjs"
+              img3="typescript"
+              img4="tailwind"
+              cls5="hidden"
+            />
+          </div>
+
+          <div
+            onClick={() => {
               setShowModalPrimary06(true);
             }}
           >
