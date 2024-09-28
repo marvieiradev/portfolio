@@ -117,17 +117,14 @@ export function App() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center space-y-4 animblur lg:py-10">
+        <div className="flex flex-col items-center space-y-4 animblur lg:py-10 max-w-5xl">
           <h1 className="titles text-2xl text-center font-bold lg:text-3xl">
             Sobre mim
           </h1>
-          <p className="flex flex-col justify-center text-center items-center text-md space-y-2 px-3 lg:text-xl">
-            <p>Formado em Análise e Desenvolvimento de Sistemas.</p>
-            <p>
-              Conhecimentos em Java, Kotlin, HTML, CSS, JavaScript e banco de
-              dados.
-            </p>
-            <p>E entusiasta em desenvolvimento de jogos.</p>
+          <p className="flex flex-col justify-center text-center items-center text-md space-y-2 px-8 md:text-lg lg:text-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl">
+            <p>Desenvolvedor Front-end Graduado em ADS. Conhecimentos em Java, Kotlin, HTML, CSS, JavaScript, banco de
+              dados, e atualmente dedicado a dominar o React.js. E entusiasta em desenvolvimento de jogos, sempre buscando
+              inovar e aprender novas tecnologias.</p>
           </p>
           <div className="flex space-x-2">
             <div className="alien"></div>
