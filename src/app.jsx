@@ -180,11 +180,11 @@ export function App() {
         <div className="container flex flex-wrap justify-center my-10 px-3 max-w-5xl">
           <div
             onClick={() => {
-              setShowModalEmpty(true);
+              setShowModalPrimary08(true);
             }}
           >
             <Project
-              classe="project-empty"
+              classe="project-primary-08"
               titulo="My Finances"
               img1="reactjs"
               img2="nextjs"
@@ -196,11 +196,11 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalEmpty(true);
+              setShowModalPrimary07(true);
             }}
           >
             <Project
-              classe="project-empty"
+              classe="project-primary-07"
               titulo="King Barber"
               img1="reactjs"
               img2="nextjs"

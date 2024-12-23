@@ -20,22 +20,24 @@ export default function ModalPrimary07({ visible, onClose }) {
                 </div>
 
                 <div id="body" className={"flex flex-col lg:flex-row " + ModalGlobal.modalBody}>
-                    <ModalHeader link="https://www.youtube.com/embed/gzT9r1_kpQI" />
+                    <ModalHeader link="https://www.youtube.com/embed/z3eR-lbeW9w" />
 
                     <ModalBody
                         titulo="King Barber"
-                        subtitulo={`Jogo em formato de quiz, Baseado no jogo " Monster Hunter" da Capcom. Onde o objetivo é acertar o nome correto dos monstros da franquia, de acordo com a sua imagem.`}
+                        subtitulo="Sistema de reserva de barbearias desenvolvido durante a FSW, evento cujo objetivo principal é criar projetos relevantes, utilizando as tecnologias mais modernas e demandadas pelo mercado."
                         infos={`
-                            <p>Tecnologias Utilizadas:</p>
                                 <p>• React</p>
-                                <p>• Javascript</p>
+                                <p>• Next.js 13</p>
+                                <p>• Next Auth</p>
+                                <p>• Postgres com NeonDB</p>
+                                <p>• Prisma</p>
                                 <p>• Tailwind CSS</p>`}
-                        data="Junho de 2024"
+                        data="Outubro de 2024"
                     />
                 </div>
                 <ModalFooter
-                    linkbtn1="https://monsterquiz.vercel.app/" txtbtn1="Acessar Projeto"
-                    linkbtn2="https://github.com/marvieiradev/monster-quiz-v1/tree/master/quiz" txtbtn2="Acessar Repositório"
+                    linkbtn1="https://kingbarber.vercel.app/" txtbtn1="Acessar Projeto"
+                    linkbtn2="https://github.com/marvieiradev/king-barber" txtbtn2="Acessar Repositório"
                 />
             </div>
         </div>
