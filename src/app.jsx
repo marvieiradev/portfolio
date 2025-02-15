@@ -61,7 +61,7 @@ export function App() {
             <img src="./icon-dark.svg" className="h-[30px] md:h-[34px]" />
           </a>
         </div>
-        <div className="flex items-end justify-end gap-2">
+        <div className="flex items-center justify-center gap-2">
           <MenuItem link="#" text="Sobre" />
           <MenuItem link="#habilidades" text="Habilidades" />
           <MenuItem link="#projetos" text="Projetos" />
