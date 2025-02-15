@@ -17,6 +17,7 @@ import ModalSecondary06 from "./components/ModalSecondary06";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
+import MenuItem from "./components/MenuItem";
 
 export function App() {
   const [showModalEmpty, setShowModalEmpty] = useState(false);
@@ -54,25 +55,17 @@ export function App() {
 
   return (
     <>
-      <header className="bg-darker border-b-2 border-blue-300 sticky top-0 z-50 w-[100%] px-2 py-2 flex justify-around">
+      <header className="bg-darker border-b-2 border-blue-300 sticky top-0 z-50 w-[100%] p-2 flex justify-around">
         <div className="flex">
           <a href="#">
             <img src="./icon-dark.svg" className="h-[30px] md:h-[34px]" />
           </a>
         </div>
-        <div className="flex gap-2 text-lg text-white text-center font-bold md:text-xl md:gap-8">
-          <a href="#">
-            <h2 className="">Sobre</h2>
-          </a>
-          <a href="#habilidades">
-            <h2>Habilidades</h2>
-          </a>
-          <a href="#projetos">
-            <h2>Projetos</h2>
-          </a>
-          <a href="#contato">
-            <h2>Contato</h2>
-          </a>
+        <div className="flex items-end justify-end gap-2">
+          <MenuItem link="#" text="Sobre" />
+          <MenuItem link="#habilidades" text="Habilidades" />
+          <MenuItem link="#projetos" text="Projetos" />
+          <MenuItem link="#contato" text="Contato" />
         </div>
       </header>
 
