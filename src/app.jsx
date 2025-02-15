@@ -425,7 +425,7 @@ export function App() {
       <footer>
         <div className="py-4">
           <h4 className="text-center text-md text-white">
-            &copy; 2024 - Marcos Vieira
+            &copy; 2025 - Marcos Vieira
           </h4>
         </div>
       </footer>
