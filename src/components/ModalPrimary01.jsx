@@ -24,7 +24,7 @@ export default function ModalPrimary01({ visible, onClose }) {
 
                     <ModalBody
                         titulo="God of War"
-                        subtitulo={`Interface do site do jogo "God of War Ragnarök" a página conta com animações ao usar o scroll do mouse e é totalmente responsiva, sendo exibida perfeitamente no desktop e mobile.`}
+                        subtitulo={`Interface do site do jogo "God of War Ragnarök". A página conta com animações ao usar o scroll do mouse e é totalmente responsiva, sendo exibida perfeitamente no desktop e mobile.`}
                         infos={`<p>Projeto desenvolvido no evento Semana Front-end da Codeboost.</p>
                         <br>
                         <p>Tecnologias Utilizadas:</p>

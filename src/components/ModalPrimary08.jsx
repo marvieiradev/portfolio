@@ -24,7 +24,7 @@ export default function ModalPrimary08({ visible, onClose }) {
 
                     <ModalBody
                         titulo="My Finances"
-                        subtitulo="Sistema de finanças onde os usuário cadastra suas movimentações financeiras, que são organizadas e melhoradas graças a insights inteligentes através da Inteligência Artificial, que analisa seus dados financeiros e identifica padrões, tendências e oportunidades de economia."
+                        subtitulo="Sistema de finanças onde o usuário cadastra suas movimentações financeiras, que são organizadas e melhoradas graças a insights inteligentes através da Inteligência Artificial, que analisa seus dados financeiros e identifica padrões, tendências e oportunidades de economia."
                         infos={`
                             <p>Tecnologias Utilizadas:</p>
                                 <p>• React</p>
