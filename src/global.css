@@ -62,56 +62,52 @@ section .container div {
   background-image: url("../../images/projects/project-empty.jpg");
 }
 
-.project-primary-01 {
-  background-image: url("../../images/projects/project-primary-01.jpg");
+.project-1up-store {
+  background-image: url("../../images/projects/project-1up-store.jpg");
 }
 
-.project-primary-02 {
-  background-image: url("../../images/projects/project-primary-02.jpg");
+.project-app-clima {
+  background-image: url("../../images/projects/project-app-clima.jpg");
 }
 
-.project-primary-03 {
-  background-image: url("../../images/projects/project-primary-03.jpg");
+.project-editor-texto {
+  background-image: url("../../images/projects/project-editor-de-texto.jpg");
 }
 
-.project-primary-04 {
-  background-image: url("../../images/projects/project-primary-04.jpg");
+.project-gerador-qr-code {
+  background-image: url("../../images/projects/project-gerador-qr-code.jpg");
 }
 
-.project-primary-05 {
-  background-image: url("../../images/projects/project-primary-05.jpg");
+.project-god-of-war {
+  background-image: url("../../images/projects/project-god-of-war.jpg");
 }
 
-.project-primary-06 {
-  background-image: url("../../images/projects/project-primary-06.jpg");
+.project-king-barber {
+  background-image: url("../../images/projects/project-king-barber.jpg");
 }
 
-.project-primary-07 {
-  background-image: url("../../images/projects/project-primary-07.jpg");
+.project-meu-palpite {
+  background-image: url("../../images/projects/project-meu-palpite.jpg");
 }
 
-.project-primary-08 {
-  background-image: url("../../images/projects/project-primary-08.jpg");
+.project-monster-quiz {
+  background-image: url("../../images/projects/project-monster-quiz.jpg");
 }
 
-.project-secondary-01 {
-  background-image: url("../../images/projects/project-secondary-01.jpg");
+.project-my-finances {
+  background-image: url("../../images/projects/project-my-finances.jpg");
 }
 
-.project-secondary-02 {
-  background-image: url("../../images/projects/project-secondary-02.jpg");
+.project-best-trip {
+  background-image: url("../../images/projects/project-best-trip.jpg");
 }
 
-.project-secondary-03 {
-  background-image: url("../../images/projects/project-secondary-03.jpg");
+.project-pokedex {
+  background-image: url("../../images/projects/project-pokedex.jpg");
 }
 
-.project-secondary-04 {
-  background-image: url("../../images/projects/project-secondary-04.jpg");
-}
-
-.project-secondary-05 {
-  background-image: url("../../images/projects/project-secondary-05.jpg");
+.project-quiz-hunter {
+  background-image: url("../../images/projects/project-quiz-hunter.jpg");
 }
 
 .reveal {

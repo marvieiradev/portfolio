@@ -135,25 +135,21 @@ export function App() {
 
         <div className="container flex flex-wrap place-items-center justify-center my-10 px-3 max-w-5xl">
 
-
-
           <div
             onClick={() => {
               setShowModalEmpty(true);
             }}
           >
             <Project
-              classe="project-primary-08"
-              titulo="My Finances"
-              img1="reactjs"
-              img2="nextjs"
-              img3="typescript"
-              img4="tailwind"
+              classe="project-empty"
+              titulo="Torecedor raiz"
+              img1="gear"
+              cls2="hidden"
+              cls3="hidden"
+              cls4="hidden"
               cls5="hidden"
             />
           </div>
-
-
 
           <div
             onClick={() => {
@@ -162,7 +158,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-primary-08"
+              classe="project-my-finances"
               titulo="My Finances"
               img1="reactjs"
               img2="nextjs"
@@ -179,7 +175,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-primary-07"
+              classe="project-king-barber"
               titulo="King Barber"
               img1="reactjs"
               img2="nextjs"
@@ -196,7 +192,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-primary-06"
+              classe="project-monster-quiz"
               titulo="Monster Quiz"
               img1="reactjs"
               img2="tailwind"
@@ -213,7 +209,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-primary-05"
+              classe="project-best-trip"
               titulo="Best Trip"
               img1="reactjs"
               img2="nextjs"
@@ -230,7 +226,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-primary-04"
+              classe="project-1up-store"
               titulo="1UP Store"
               img1="reactjs"
               img2="nextjs"
@@ -247,7 +243,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-primary-03"
+              classe="project-meu-palpite"
               titulo="Meu Palpite"
               img1="html"
               img2="css"
@@ -264,7 +260,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-primary-02"
+              classe="project-quiz-hunter"
               titulo="Quiz Hunter"
               img1="kotlin"
               cls2="hidden"
@@ -281,7 +277,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-primary-01"
+              classe="project-god-of-war"
               titulo="God of War"
               img1="html"
               img2="css"
@@ -298,7 +294,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-secondary-01"
+              classe="project-pokedex"
               titulo="Pokedex"
               img1="html"
               img2="css"
@@ -315,7 +311,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-secondary-02"
+              classe="project-app-clima"
               titulo="App Clima"
               img1="html"
               img2="css"
@@ -332,7 +328,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-secondary-03"
+              classe="project-editor-texto"
               titulo="Editor de Texto"
               img1="html"
               img2="css"
@@ -349,7 +345,7 @@ export function App() {
             }}
           >
             <Project
-              classe="project-secondary-04"
+              classe="project-gerador-qr-code"
               titulo="Gerador de QR Code"
               img1="html"
               img2="css"
@@ -358,10 +354,6 @@ export function App() {
               cls5="hidden"
             />
           </div>
-
-          {/*<div onClick={() => { setShowModalEmpty(true) }}>
-            <Project classe="project-secondary-05" titulo="Calculadora em Javascript" img1="html" img2="css" img3="javascript" cls4="hidden" cls5="hidden" />
-          </div>*/}
         </div>
       </section>
 
