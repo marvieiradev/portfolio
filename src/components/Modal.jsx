@@ -21,18 +21,18 @@ export default function Modal({ visible, onClose, id }) {
 
                 <div id="body" className="flex flex-col lg:flex-row items-center px-2 lg:space-x-6 lg:px-6">
                     <div className="flex flex-col justify-start">
-                        <iframe className="w-[300px] h-[180px] md:w-[426px] md:h-[240px] lg:w-[560px] lg:h-[320px] xl:w-[600px] xl:h-[340px]" src={`${proj.video}?autoplay=1&loop=1&mute=1&controls=0`} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullscreen></iframe>
+                        <iframe className="w-[300px] h-[180px] md:w-[426px] md:h-[240px] lg:w-[560px] lg:h-[320px] xl:w-[600px] xl:h-[340px]" src={`${proj.video}?autoplay=1&loop=1&mute=1&controls=0`} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
                         <p className="text-center p-2">(Vídeo de demonstração)</p>
                     </div>
 
                     <div className="flex flex-col justify-center p-4 space-y-2 lg:justify-start">
                         <h1 id="md-title" className="titles text-2xl text-center font-bold text-blue-300 lg:text-2xl">{proj.titulo}</h1>
-                        <p className="text-xs text-justify lg:text-base">{proj.subtitulo}</p>
-                        <p className="text-xs lg:text-base">{proj.info}</p>
+                        <p className="text-xs text-justify lg:text-base leading-1">{proj.subtitulo}</p>
+                        <p className="text-xs lg:text-base leading-1">{proj.info}</p>
                         <div>
                             {
                                 proj.tecnologias.map((tecnologia) => (
-                                    <p className="text-xs lg:text-base">• {tecnologia}</p>
+                                    <p className="text-xs lg:text-base leading-1">• {tecnologia}</p>
                                 ))
                             }
                         </div>

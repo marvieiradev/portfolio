@@ -1,19 +1,5 @@
 import { useState } from "react";
 import ModalEmpty from "./components/ModalEmpty";
-import ModalPrimary01 from "./components/ModalPrimary01";
-import ModalPrimary02 from "./components/ModalPrimary02";
-import ModalPrimary03 from "./components/ModalPrimary03";
-import ModalPrimary04 from "./components/ModalPrimary04";
-import ModalPrimary05 from "./components/ModalPrimary05";
-import ModalPrimary06 from "./components/ModalPrimary06";
-import ModalPrimary07 from "./components/ModalPrimary07";
-import ModalPrimary08 from "./components/ModalPrimary08";
-import ModalSecondary01 from "./components/ModalSecondary01";
-import ModalSecondary02 from "./components/ModalSecondary02";
-import ModalSecondary03 from "./components/ModalSecondary03";
-import ModalSecondary04 from "./components/ModalSecondary04";
-import ModalSecondary05 from "./components/ModalSecondary05";
-import ModalSecondary06 from "./components/ModalSecondary06";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
@@ -21,43 +7,12 @@ import MenuItem from "./components/MenuItem";
 import Modal from "./components/Modal";
 
 export function App() {
-  const [showModalEmpty, setShowModalEmpty] = useState(false);
-  const [showModalPrimary01, setShowModalPrimary01] = useState(false);
-  const [showModalPrimary02, setShowModalPrimary02] = useState(false);
-  const [showModalPrimary03, setShowModalPrimary03] = useState(false);
-  const [showModalPrimary04, setShowModalPrimary04] = useState(false);
-  const [showModalPrimary05, setShowModalPrimary05] = useState(false);
-  const [showModalPrimary06, setShowModalPrimary06] = useState(false);
-  const [showModalPrimary07, setShowModalPrimary07] = useState(false);
-  const [showModalPrimary08, setShowModalPrimary08] = useState(false);
-  const [showModalSecondary01, setShowModalSecondary01] = useState(false);
-  const [showModalSecondary02, setShowModalSecondary02] = useState(false);
-  const [showModalSecondary03, setShowModalSecondary03] = useState(false);
-  const [showModalSecondary04, setShowModalSecondary04] = useState(false);
-  const [showModalSecondary05, setShowModalSecondary05] = useState(false);
-  const [showModalSecondary06, setShowModalSecondary06] = useState(false);
-
-  //Futura atualização
   const [project, setProject] = useState("");
+  const [showModalEmpty, setShowModalEmpty] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   const handleOnClose = () => {
     setShowModalEmpty(false);
-    setShowModalPrimary01(false);
-    setShowModalPrimary02(false);
-    setShowModalPrimary03(false);
-    setShowModalPrimary04(false);
-    setShowModalPrimary05(false);
-    setShowModalPrimary06(false);
-    setShowModalPrimary07(false);
-    setShowModalPrimary08(false);
-    setShowModalSecondary01(false);
-    setShowModalSecondary02(false);
-    setShowModalSecondary03(false);
-    setShowModalSecondary04(false);
-    setShowModalSecondary05(false);
-    setShowModalSecondary06(false);
-    //Futura atualização
     setShowModal(false);
   };
 
@@ -151,7 +106,7 @@ export function App() {
             Habilidades
           </h1>
         </div>
-        <div className="container flex gap-1 flex-wrap justify-center my-10 max-w-5xl">
+        <div className="container flex gap-1 flex-wrap place-items-center justify-center my-10 max-w-5xl">
           <Skill text="HTML5" logo="html" />
           <Skill text="CSS3" logo="css" />
           <Skill text="JavaScript" logo="javascript" />
@@ -178,11 +133,31 @@ export function App() {
           </h1>
         </div>
 
-        <div className="container flex flex-wrap justify-center my-10 px-3 max-w-5xl">
-          {/* Futura Atualização
+        <div className="container flex flex-wrap place-items-center justify-center my-10 px-3 max-w-5xl">
+
+
+
           <div
             onClick={() => {
-              setProject("proj_god_of_war");
+              setShowModalEmpty(true);
+            }}
+          >
+            <Project
+              classe="project-primary-08"
+              titulo="My Finances"
+              img1="reactjs"
+              img2="nextjs"
+              img3="typescript"
+              img4="tailwind"
+              cls5="hidden"
+            />
+          </div>
+
+
+
+          <div
+            onClick={() => {
+              setProject("my_finances");
               setShowModal(true);
             }}
           >
@@ -196,27 +171,11 @@ export function App() {
               cls5="hidden"
             />
           </div>
-          */}
 
           <div
             onClick={() => {
-              setShowModalPrimary08(true);
-            }}
-          >
-            <Project
-              classe="project-primary-08"
-              titulo="My Finances"
-              img1="reactjs"
-              img2="nextjs"
-              img3="typescript"
-              img4="tailwind"
-              cls5="hidden"
-            />
-          </div>
-
-          <div
-            onClick={() => {
-              setShowModalPrimary07(true);
+              setProject("king_barber");
+              setShowModal(true);
             }}
           >
             <Project
@@ -232,7 +191,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalPrimary06(true);
+              setProject("monster_quiz");
+              setShowModal(true);
             }}
           >
             <Project
@@ -248,7 +208,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalPrimary05(true);
+              setProject("best_trip");
+              setShowModal(true);
             }}
           >
             <Project
@@ -264,7 +225,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalPrimary04(true);
+              setProject("1up_store");
+              setShowModal(true);
             }}
           >
             <Project
@@ -280,7 +242,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalPrimary03(true);
+              setProject("meu_palpite");
+              setShowModal(true);
             }}
           >
             <Project
@@ -296,7 +259,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalPrimary02(true);
+              setProject("quiz_hunter");
+              setShowModal(true);
             }}
           >
             <Project
@@ -312,7 +276,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalPrimary01(true);
+              setProject("god_of_war");
+              setShowModal(true);
             }}
           >
             <Project
@@ -328,7 +293,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalSecondary01(true);
+              setProject("pokedex");
+              setShowModal(true);
             }}
           >
             <Project
@@ -344,7 +310,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalSecondary02(true);
+              setProject("app_clima");
+              setShowModal(true);
             }}
           >
             <Project
@@ -360,7 +327,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalSecondary03(true);
+              setProject("editor_de_texto");
+              setShowModal(true);
             }}
           >
             <Project
@@ -376,7 +344,8 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalSecondary04(true);
+              setProject("gerador_qr_code");
+              setShowModal(true);
             }}
           >
             <Project
@@ -458,45 +427,11 @@ export function App() {
       </footer>
 
       <ModalEmpty onClose={handleOnClose} visible={showModalEmpty} />
-      <ModalPrimary01 onClose={handleOnClose} visible={showModalPrimary01} />
-      <ModalPrimary02 onClose={handleOnClose} visible={showModalPrimary02} />
-      <ModalPrimary03 onClose={handleOnClose} visible={showModalPrimary03} />
-      <ModalPrimary04 onClose={handleOnClose} visible={showModalPrimary04} />
-      <ModalPrimary05 onClose={handleOnClose} visible={showModalPrimary05} />
-      <ModalPrimary06 onClose={handleOnClose} visible={showModalPrimary06} />
-      <ModalPrimary07 onClose={handleOnClose} visible={showModalPrimary07} />
-      <ModalPrimary08 onClose={handleOnClose} visible={showModalPrimary08} />
-      <ModalSecondary01
-        onClose={handleOnClose}
-        visible={showModalSecondary01}
-      />
-      <ModalSecondary02
-        onClose={handleOnClose}
-        visible={showModalSecondary02}
-      />
-      <ModalSecondary03
-        onClose={handleOnClose}
-        visible={showModalSecondary03}
-      />
-      <ModalSecondary04
-        onClose={handleOnClose}
-        visible={showModalSecondary04}
-      />
-      <ModalSecondary05
-        onClose={handleOnClose}
-        visible={showModalSecondary05}
-      />
-      <ModalSecondary06
-        onClose={handleOnClose}
-        visible={showModalSecondary06}
-      />
-
       <Modal
         onClose={handleOnClose}
         visible={showModal}
         id={project}
       />
-      {console.log(project)}
     </>
   );
 }
