@@ -18,6 +18,7 @@ import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
 import MenuItem from "./components/MenuItem";
+import Modal from "./components/Modal";
 
 export function App() {
   const [showModalEmpty, setShowModalEmpty] = useState(false);
@@ -35,6 +36,11 @@ export function App() {
   const [showModalSecondary04, setShowModalSecondary04] = useState(false);
   const [showModalSecondary05, setShowModalSecondary05] = useState(false);
   const [showModalSecondary06, setShowModalSecondary06] = useState(false);
+
+  //Futura atualização
+  const [project, setProject] = useState("");
+  const [showModal, setShowModal] = useState(false);
+
   const handleOnClose = () => {
     setShowModalEmpty(false);
     setShowModalPrimary01(false);
@@ -51,6 +57,8 @@ export function App() {
     setShowModalSecondary04(false);
     setShowModalSecondary05(false);
     setShowModalSecondary06(false);
+    //Futura atualização
+    setShowModal(false);
   };
 
   return (
@@ -171,6 +179,25 @@ export function App() {
         </div>
 
         <div className="container flex flex-wrap justify-center my-10 px-3 max-w-5xl">
+          {/* Futura Atualização
+          <div
+            onClick={() => {
+              setProject("proj_god_of_war");
+              setShowModal(true);
+            }}
+          >
+            <Project
+              classe="project-primary-08"
+              titulo="My Finances"
+              img1="reactjs"
+              img2="nextjs"
+              img3="typescript"
+              img4="tailwind"
+              cls5="hidden"
+            />
+          </div>
+          */}
+
           <div
             onClick={() => {
               setShowModalPrimary08(true);
@@ -463,6 +490,13 @@ export function App() {
         onClose={handleOnClose}
         visible={showModalSecondary06}
       />
+
+      <Modal
+        onClose={handleOnClose}
+        visible={showModal}
+        id={project}
+      />
+      {console.log(project)}
     </>
   );
 }
