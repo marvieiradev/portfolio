@@ -110,6 +110,10 @@ section .container div {
   background-image: url("../../images/projects/project-quiz-hunter.jpg");
 }
 
+.project-torcedor-raiz {
+  background-image: url("../../images/projects/project-torcedor-raiz.jpg");
+}
+
 .reveal {
   position: relative;
   transform: translateX(-150px);

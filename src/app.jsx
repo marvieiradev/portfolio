@@ -142,10 +142,27 @@ export function App() {
           >
             <Project
               classe="project-empty"
-              titulo="Torecedor raiz"
+              titulo="Lanche Express"
               img1="gear"
               cls2="hidden"
               cls3="hidden"
+              cls4="hidden"
+              cls5="hidden"
+            />
+          </div>
+
+          <div
+            onClick={() => {
+              setProject("torcedor-raiz");
+              setShowModal(true);
+            }}
+          >
+            <Project
+              classe="project-torcedor-raiz"
+              titulo="Torcedor Raiz"
+              img1="reactjs"
+              img2="tailwind"
+              img3="javascript"
               cls4="hidden"
               cls5="hidden"
             />

@@ -213,6 +213,27 @@ const projects = [
     btn_repositorio: true,
     link_repositorio: "https://github.com/marvieiradev/my-finances",
   },
+
+  {
+    id: "torcedor-raiz",
+    titulo: "Torcedor Raiz",
+    subtitulo:
+      "O Torcedor Raiz é o aplicativo perfeito para os fãs de futebol que querem ficar por dentro de tudo sobre o seu time do coração.",
+    info: "Projeto desenvolvido para o desafio de janeiro do FullStack Club",
+    tecnologias: [
+      "React",
+      "React-Router",
+      "Javascript",
+      "Tailwind CSS",
+      "API da TheSportsDB e Sofascore.",
+    ],
+    video: "https://www.youtube.com/embed/FH_w0ZPMpKs",
+    data: "Janeiro de 2025",
+    btn_projeto: true,
+    link_projeto: "https://torcedor-raiz.vercel.app/",
+    btn_repositorio: true,
+    link_repositorio: "https://github.com/marvieiradev/torcedor-raiz",
+  },
 ];
 
 export default projects;
