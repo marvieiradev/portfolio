@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Project from "./components/Project";
 import MenuItem from "./components/MenuItem";
 import Modal from "./components/Modal";
+import SidebarMenu from "./components/SideBarMenu";
 
 export function App() {
   const [project, setProject] = useState("");
@@ -18,17 +19,24 @@ export function App() {
 
   return (
     <>
-      <header className="bg-darker border-b-2 border-blue-300 sticky top-0 z-50 w-[100%] p-2 flex justify-around">
-        <div className="flex">
-          <a href="#">
-            <img src="./icon-dark.svg" className="h-[30px] md:h-[34px]" />
-          </a>
-        </div>
-        <div className="flex items-center justify-center gap-2">
-          <MenuItem link="#" text="Sobre" />
-          <MenuItem link="#habilidades" text="Habilidades" />
-          <MenuItem link="#projetos" text="Projetos" />
-          <MenuItem link="#contato" text="Contato" />
+      <header className="flex bg-darker border-b-2 border-blue-300 sticky top-0 z-50 w-[100%] p-2 px-4 md:px-0 justify-center">
+        <div className="flex w-full max-w-5xl justify-between">
+          <div className="flex">
+            <a href="#">
+              <img src="./icon-dark.svg" className="h-[30px] md:h-[34px]" />
+            </a>
+          </div>
+          <div>
+            <div className="items-center gap-2 hidden md:flex">
+              <MenuItem link="#" text="Sobre" />
+              <MenuItem link="#habilidades" text="Habilidades" />
+              <MenuItem link="#projetos" text="Projetos" />
+              <MenuItem link="#contato" text="Contato" />
+            </div>
+            <div className="text-white flex md:hidden">
+              <SidebarMenu />
+            </div>
+          </div>
         </div>
       </header>
 
