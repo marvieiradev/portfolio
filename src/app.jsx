@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import Project from "@/components/Project";
 import MenuItem from "@/components/MenuItem";
 import Modal from "@/components/Modal";
-import SidebarMenu from "@/components/SideBarMenu";
+import SidebarMenu from "@/components/SidebarMenu";
 
 export function App() {
   const [project, setProject] = useState("");
