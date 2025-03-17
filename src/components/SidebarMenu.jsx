@@ -15,6 +15,7 @@ const SidebarMenu = () => {
             <SheetTrigger><Menu size={32} /></SheetTrigger>
             <SheetContent className="border-none">
                 <SheetHeader>
+                    <SheetTitle></SheetTitle>
                     <img src="./icon-dark.svg" className="h-[40px] md:h-[44px] mb-4" />
                 </SheetHeader>
                 <div className="flex flex-col w-full space-y-3 mt-4">

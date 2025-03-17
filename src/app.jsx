@@ -1,11 +1,11 @@
 import { useState } from "react";
-import ModalEmpty from "./components/ModalEmpty";
-import Skill from "./components/Skill";
-import Contact from "./components/Contact";
-import Project from "./components/Project";
-import MenuItem from "./components/MenuItem";
-import Modal from "./components/Modal";
-import SidebarMenu from "./components/SideBarMenu";
+import ModalEmpty from "@/components/ModalEmpty";
+import Skill from "@/components/Skill";
+import Contact from "@/components/Contact";
+import Project from "@/components/Project";
+import MenuItem from "@/components/MenuItem";
+import Modal from "@/components/Modal";
+import SidebarMenu from "@/components/SideBarMenu";
 
 export function App() {
   const [project, setProject] = useState("");
