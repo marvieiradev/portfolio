@@ -234,6 +234,21 @@ const projects = [
     btn_repositorio: true,
     link_repositorio: "https://github.com/marvieiradev/torcedor-raiz",
   },
+
+  {
+    id: "dungeon-rpg",
+    titulo: "Dungeon RPG",
+    subtitulo:
+      "O Dungeon RPG é um jogo simples de aventura em estilo pixel art. Explore salas, enfrente monstros, colete tesouros e tente chegar ao final desta masmorra.",
+    info: "",
+    tecnologias: ["HTML5", "CSS3", "Javascript"],
+    video: "https://www.youtube.com/embed/HogDHyUEgEk",
+    data: "Julho de 2025",
+    btn_projeto: true,
+    link_projeto: "https://marvieiradev.github.io/game-dungeon-rpg/",
+    btn_repositorio: true,
+    link_repositorio: "https://github.com/marvieiradev/game-dungeon-rpg",
+  },
 ];
 
 export default projects;

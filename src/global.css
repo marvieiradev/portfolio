@@ -114,6 +114,10 @@ section .container div {
   background-image: url("../../images/projects/project-torcedor-raiz.jpg");
 }
 
+.project-dungeon-rpg {
+  background-image: url("../../images/projects/project-dungeon-rpg.jpg");
+}
+
 .reveal {
   position: relative;
   transform: translateX(-150px);

@@ -79,7 +79,7 @@ export function App() {
             <div className="justify-center animblur">
               <a href="https://github.com/marvieiradev" target="_blank">
                 <img
-                  src="./images/logo.png"
+                  src="./images/logo-new.png"
                   className="h-48 md:h-[250px] lg:h-[300px] opacity-90 hover:opacity-100 hover:scale-110"
                 />
               </a>
@@ -93,7 +93,7 @@ export function App() {
           </h1>
           <p className="flex flex-col justify-center text-center items-center text-md space-y-2 px-8 md:text-lg lg:text-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl">
             <p>Desenvolvedor Front-end Graduado em ADS. Conhecimentos em Java, Kotlin, HTML, CSS, JavaScript, banco de
-              dados, e atualmente dedicado a dominar o React.js. E entusiasta em desenvolvimento de jogos, sempre buscando
+              dados, e atualmente dedicado a dominar o React.js. E entusiasta em desenvolvimento de jogos e inteligência artificial, sempre buscando
               inovar e aprender novas tecnologias.</p>
           </p>
           <div className="flex space-x-2">
@@ -160,6 +160,25 @@ export function App() {
               cls5="hidden"
             />
           </div>
+
+
+          <div
+            onClick={() => {
+              setProject("dungeon-rpg");
+              setShowModal(true);
+            }}
+          >
+            <Project
+              classe="project-dungeon-rpg"
+              titulo="Dungeon RPG"
+              img1="html"
+              img2="css"
+              img3="javascript"
+              cls4="hidden"
+              cls5="hidden"
+            />
+          </div>
+
 
           <div
             onClick={() => {
