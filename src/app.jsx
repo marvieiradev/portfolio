@@ -127,6 +127,8 @@ export function App() {
           <Skill text="TypeScript" logo="typescript" />
           <Skill text="Bootstrap" logo="bootstrap" />
           <Skill text="Next.js" logo="nextjs" />
+          <Skill text="Docker" logo="docker" />
+          <Skill text="IA" logo="ai" />
         </div>
       </section>
 
