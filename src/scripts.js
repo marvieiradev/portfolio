@@ -26,4 +26,3 @@ const changeFavicon = () => {
 
 changeFavicon();
 isDark.addEventListener("change", changeFavicon);
-

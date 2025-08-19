@@ -118,6 +118,10 @@ section .container div {
   background-image: url("../../images/projects/project-dungeon-rpg.jpg");
 }
 
+.project-ai-live-answer {
+  background-image: url("../../images/projects/project-ai-live-answer.jpg");
+}
+
 .reveal {
   position: relative;
   transform: translateX(-150px);

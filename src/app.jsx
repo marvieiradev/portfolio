@@ -11,6 +11,7 @@ export function App() {
   const [project, setProject] = useState("");
   const [showModalEmpty, setShowModalEmpty] = useState(false);
   const [showModal, setShowModal] = useState(false);
+  const [showProjects, setShowProjects] = useState(false);
 
   const handleOnClose = () => {
     setShowModalEmpty(false);
@@ -147,20 +148,20 @@ export function App() {
 
           <div
             onClick={() => {
-              setShowModalEmpty(true);
+              setProject("ai-live-answer");
+              setShowModal(true);
             }}
           >
             <Project
-              classe="project-empty"
-              titulo="Lanche Express"
-              img1="gear"
-              cls2="hidden"
-              cls3="hidden"
-              cls4="hidden"
+              classe="project-ai-live-answer"
+              titulo="Ai Live Answer"
+              img1="reactjs"
+              img2="tailwind"
+              img3="docker"
+              img4="ai"
               cls5="hidden"
             />
           </div>
-
 
           <div
             onClick={() => {
@@ -178,7 +179,6 @@ export function App() {
               cls5="hidden"
             />
           </div>
-
 
           <div
             onClick={() => {
@@ -299,108 +299,133 @@ export function App() {
             />
           </div>
 
-          <div
-            onClick={() => {
-              setProject("quiz_hunter");
-              setShowModal(true);
-            }}
-          >
-            <Project
-              classe="project-quiz-hunter"
-              titulo="Quiz Hunter"
-              img1="kotlin"
-              cls2="hidden"
-              cls3="hidden"
-              cls4="hidden"
-              cls5="hidden"
-            />
-          </div>
+          {showProjects && (
+            <>
+              <div
+                onClick={() => {
+                  setProject("quiz_hunter");
+                  setShowModal(true);
+                }}
+              >
+                <Project
+                  classe="project-quiz-hunter"
+                  titulo="Quiz Hunter"
+                  img1="kotlin"
+                  cls2="hidden"
+                  cls3="hidden"
+                  cls4="hidden"
+                  cls5="hidden"
+                />
+              </div>
 
-          <div
-            onClick={() => {
-              setProject("god_of_war");
-              setShowModal(true);
-            }}
-          >
-            <Project
-              classe="project-god-of-war"
-              titulo="God of War"
-              img1="html"
-              img2="css"
-              img3="javascript"
-              img4="sass"
-              cls5="hidden"
-            />
-          </div>
+              <div
+                onClick={() => {
+                  setProject("god_of_war");
+                  setShowModal(true);
+                }}
+              >
+                <Project
+                  classe="project-god-of-war"
+                  titulo="God of War"
+                  img1="html"
+                  img2="css"
+                  img3="javascript"
+                  img4="sass"
+                  cls5="hidden"
+                />
+              </div>
 
-          <div
-            onClick={() => {
-              setProject("pokedex");
-              setShowModal(true);
-            }}
-          >
-            <Project
-              classe="project-pokedex"
-              titulo="Pokedex"
-              img1="html"
-              img2="css"
-              img3="javascript"
-              cls4="hidden"
-              cls5="hidden"
-            />
-          </div>
+              <div
+                onClick={() => {
+                  setProject("pokedex");
+                  setShowModal(true);
+                }}
+              >
+                <Project
+                  classe="project-pokedex"
+                  titulo="Pokedex"
+                  img1="html"
+                  img2="css"
+                  img3="javascript"
+                  cls4="hidden"
+                  cls5="hidden"
+                />
+              </div>
 
-          <div
-            onClick={() => {
-              setProject("app_clima");
-              setShowModal(true);
-            }}
-          >
-            <Project
-              classe="project-app-clima"
-              titulo="App Clima"
-              img1="html"
-              img2="css"
-              img3="javascript"
-              cls4="hidden"
-              cls5="hidden"
-            />
-          </div>
+              <div
+                onClick={() => {
+                  setProject("app_clima");
+                  setShowModal(true);
+                }}
+              >
+                <Project
+                  classe="project-app-clima"
+                  titulo="App Clima"
+                  img1="html"
+                  img2="css"
+                  img3="javascript"
+                  cls4="hidden"
+                  cls5="hidden"
+                />
+              </div>
 
-          <div
-            onClick={() => {
-              setProject("editor_de_texto");
-              setShowModal(true);
-            }}
-          >
-            <Project
-              classe="project-editor-texto"
-              titulo="Editor de Texto"
-              img1="html"
-              img2="css"
-              img3="javascript"
-              cls4="hidden"
-              cls5="hidden"
-            />
-          </div>
+              <div
+                onClick={() => {
+                  setProject("editor_de_texto");
+                  setShowModal(true);
+                }}
+              >
+                <Project
+                  classe="project-editor-texto"
+                  titulo="Editor de Texto"
+                  img1="html"
+                  img2="css"
+                  img3="javascript"
+                  cls4="hidden"
+                  cls5="hidden"
+                />
+              </div>
 
-          <div
-            onClick={() => {
-              setProject("gerador_qr_code");
-              setShowModal(true);
-            }}
-          >
-            <Project
-              classe="project-gerador-qr-code"
-              titulo="Gerador de QR Code"
-              img1="html"
-              img2="css"
-              img3="javascript"
-              cls4="hidden"
-              cls5="hidden"
-            />
-          </div>
+              <div
+                onClick={() => {
+                  setProject("gerador_qr_code");
+                  setShowModal(true);
+                }}
+              >
+                <Project
+                  classe="project-gerador-qr-code"
+                  titulo="Gerador de QR Code"
+                  img1="html"
+                  img2="css"
+                  img3="javascript"
+                  cls4="hidden"
+                  cls5="hidden"
+                />
+              </div>
+
+              {/*<div
+                onClick={() => {
+                  setShowModalEmpty(true);
+                }}
+              >
+                <Project
+                  classe="project-empty"
+                  titulo="Em breve!"
+                  img1="gear"
+                  cls2="hidden"
+                  cls3="hidden"
+                  cls4="hidden"
+                  cls5="hidden"
+                />
+              </div>*/}
+            </>)
+          }
+
         </div>
+
+        <button className="text-center font-bold text-blue-100 border border-blue-100 text-sm px-6 py-2 rounded-xl md:text-base hover:text-blue-900 hover:bg-gradient-to-r from-blue-100 to-blue-300" onClick={() => setShowProjects(!showProjects)}>
+          {showProjects ? "Mostrar Menos" : "Mostrar Mais"}
+        </button>
       </section>
 
       <section

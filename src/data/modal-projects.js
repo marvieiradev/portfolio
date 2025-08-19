@@ -249,6 +249,27 @@ const projects = [
     btn_repositorio: true,
     link_repositorio: "https://github.com/marvieiradev/game-dungeon-rpg",
   },
+
+  {
+    id: "ai-live-answer",
+    titulo: "Ai Live Answer",
+    subtitulo:
+      "O Ai Live Answer é um sistema de perguntas e respostas em tempo real que pode receber conteúdo via áudio, onde os usuários podem fazer perguntas e receber respostas instantâneas com a ajuda da IA.",
+    info: "",
+    tecnologias: [
+      "React",
+      "Docker",
+      "PostgreSQL com Drizzle",
+      "Tailwind CSS",
+      "Inteligência Artificial",
+    ],
+    video: "https://www.youtube.com/embed/xRTXtfXROdA",
+    data: "Julho de 2025",
+    btn_projeto: false,
+    link_projeto: "",
+    btn_repositorio: true,
+    link_repositorio: "https://github.com/marvieiradev/ai-live-answer",
+  },
 ];
 
 export default projects;
