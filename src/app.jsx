@@ -43,7 +43,7 @@ export function App() {
 
       <section
         id="sobre"
-        className="bg-dark text-white flex flex-col py-8 items-center space-y-4 lg:mt-6"
+        className="bg-dark text-white flex flex-col py-8 items-center space-y-4 lg:mt-6 lg:h-screen"
       >
         <div className="flex md:space-y-[100px]">
           <div className="container flex flex-col items-center md:flex-row space-y-4 lg:space-y-0 md:space-x-24 lg:space-x-48 max-w-5xl">
@@ -63,14 +63,14 @@ export function App() {
                 <a
                   href="docs/cv-marcos-vieira.pdf"
                   download
-                  className="font-bold animblur text-center text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 text-sm px-6 py-2 rounded-xl md:text-md"
+                  className="font-bold animblur text-center text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 border border-transparent hover:!border-blue-100 hover:text-blue-100 hover:bg-gradient-to-r hover:from-dark hover:to-dark text-sm px-6 py-2 rounded-xl md:text-md"
                 >
                   Download CV
                 </a>
                 <a
                   href="https://api.whatsapp.com/send?phone=5585986099213"
                   target="_blank"
-                  className="font-bold animblur text-center text-blue-100 border border-blue-100 text-sm px-6 py-2 rounded-xl md:text-md"
+                  className="font-bold animblur text-center text-blue-100 border border-blue-100 hover:text-blue-900 hover:bg-gradient-to-r from-blue-100 to-blue-300 text-sm px-6 py-2 rounded-xl md:text-md"
                 >
                   Entrar em Contato
                 </a>
@@ -430,7 +430,7 @@ export function App() {
 
       <section
         id="contato"
-        className="reveal text-white flex flex-col space-y-4 py-10 md:space-y-8"
+        className="reveal text-white flex flex-col space-y-4 py-10 md:space-y-8 lg:mt-6"
       >
         <br />
         <div id="titulo-contato">
@@ -482,8 +482,8 @@ export function App() {
       </section>
 
       <footer>
-        <div className="py-4">
-          <h4 className="text-center text-md text-white">
+        <div className="py-4 lg:mt-6">
+          <h4 className="text-center text-md text-white  lg:text-lg">
             &copy; 2025 - Marcos Vieira
           </h4>
         </div>

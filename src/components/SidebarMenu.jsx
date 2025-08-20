@@ -18,7 +18,7 @@ const SidebarMenu = () => {
                     <SheetTitle></SheetTitle>
                     <img src="./icon-dark.svg" className="h-[40px] md:h-[44px] mb-4" />
                 </SheetHeader>
-                <div className="flex flex-col w-full space-y-3 mt-4">
+                <div className="flex flex-col w-full space-y-3 mt-6">
                     <SheetClose asChild>
                         <a href="#">
                             <div className="text-lg bg-dark/50 hover:bg-dark p-1 md:px-4 text-white font-bold md:gap-8 rounded-lg text-center">
