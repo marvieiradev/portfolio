@@ -61,7 +61,7 @@ export function App() {
               </div>
               <div className="flex flex-row space-x-4 justify-center lg:justify-start">
                 <a
-                  href="docs/cv-marcos-vieira.pdf"
+                  href="docs/marcos-vieira.pdf"
                   download
                   className="font-bold animblur text-center text-blue-900 bg-gradient-to-r from-blue-100 to-blue-300 border border-transparent hover:!border-blue-100 hover:text-blue-100 hover:bg-gradient-to-r hover:from-dark hover:to-dark text-sm px-6 py-2 rounded-xl md:text-md"
                 >
